@@ -1,0 +1,287 @@
+2024-10-22 01:04:45.435 +03:00 [INF] Starting the application
+
+2024-10-22 01:06:27.309 +03:00 [INF] Trying to execute: Room/Update
+2024-10-22 01:06:27.857 +03:00 [ERR] Failed To Execute:Room/Update, 500 , Validation failed: Invalid view Type
+Invalid Bed Type
+Invalid Room Status
+Price Should Be Greater Than 0
+
+2024-10-22 01:07:06.595 +03:00 [INF] Trying to execute: Room/Update
+2024-10-22 01:07:54.999 +03:00 [INF] Starting the application
+
+2024-10-22 01:08:52.587 +03:00 [INF] Trying to execute: Room/Update
+2024-10-22 01:08:56.490 +03:00 [INF] Room/Update: executed successfully
+
+2024-10-22 01:09:25.537 +03:00 [INF] Trying to execute: Room/Update
+2024-10-22 01:09:25.793 +03:00 [INF] Room/Update: executed successfully
+
+2024-10-22 01:09:25.831 +03:00 [ERR] Failed executing DbCommand (13ms) [Parameters=[@__roomNumber_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [r].[RoomId], [r].[BedType], [r].[CreatedAt], [r].[CreatedBy], [r].[IsActive], [r].[ModifiedBy], [r].[ModifiedDate], [r].[Price], [r].[RoomNumber], [r].[RoomStatusID], [r].[RoomTypeID], [r].[ViewType], [r0].[ID], [r0].[Description], [r0].[Status], [r1].[Id], [r1].[CreatedAt], [r1].[CreatedBy], [r1].[Description], [r1].[IsActive], [r1].[ModifiedBy], [r1].[ModifiedDate], [r1].[Type]
+FROM [Rooms] AS [r]
+INNER JOIN [RoomStatuses] AS [r0] ON [r].[RoomStatusID] = [r0].[ID]
+INNER JOIN [RoomTypes] AS [r1] ON [r].[RoomTypeID] = [r1].[Id]
+WHERE [r].[RoomNumber] = @__roomNumber_0
+2024-10-22 01:09:25.878 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'HootelBooking.Persistence.Data.AppDbContext'.
+System.InvalidOperationException: Invalid operation. The connection is closed.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: Invalid operation. The connection is closed.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2024-10-22 01:10:14.810 +03:00 [INF] Trying to execute: Room/Update
+2024-10-22 01:10:14.937 +03:00 [INF] Room/Update: executed successfully
+
+2024-10-22 01:10:14.942 +03:00 [ERR] Failed executing DbCommand (7ms) [Parameters=[@__roomNumber_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [r].[RoomId], [r].[BedType], [r].[CreatedAt], [r].[CreatedBy], [r].[IsActive], [r].[ModifiedBy], [r].[ModifiedDate], [r].[Price], [r].[RoomNumber], [r].[RoomStatusID], [r].[RoomTypeID], [r].[ViewType], [r0].[ID], [r0].[Description], [r0].[Status], [r1].[Id], [r1].[CreatedAt], [r1].[CreatedBy], [r1].[Description], [r1].[IsActive], [r1].[ModifiedBy], [r1].[ModifiedDate], [r1].[Type]
+FROM [Rooms] AS [r]
+INNER JOIN [RoomStatuses] AS [r0] ON [r].[RoomStatusID] = [r0].[ID]
+INNER JOIN [RoomTypes] AS [r1] ON [r].[RoomTypeID] = [r1].[Id]
+WHERE [r].[RoomNumber] = @__roomNumber_0
+2024-10-22 01:10:14.947 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'HootelBooking.Persistence.Data.AppDbContext'.
+System.InvalidOperationException: Invalid operation. The connection is closed.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: Invalid operation. The connection is closed.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2024-10-22 01:14:34.498 +03:00 [INF] Starting the application
+
+2024-10-22 01:14:57.660 +03:00 [INF] Trying to execute: Room/Update
+2024-10-22 01:15:02.289 +03:00 [ERR] Failed To Execute:Room/Update, 500 , Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Boolean -> RoomResponseDto
+System.Boolean -> HootelBooking.Application.Dtos.Room.Response.RoomResponseDto
+
+2024-10-22 01:16:38.596 +03:00 [INF] Starting the application
+
+2024-10-22 01:16:59.556 +03:00 [INF] Trying to execute: Room/Update
+2024-10-22 01:18:59.121 +03:00 [INF] Starting the application
+
+2024-10-22 01:19:15.022 +03:00 [INF] Trying to execute: Room/Update
+2024-10-22 01:19:19.257 +03:00 [INF] Room/Update: executed successfully
+
+2024-10-22 01:19:24.080 +03:00 [INF] Trying to execute: Room/Update
+2024-10-22 01:19:24.169 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'HootelBooking.Persistence.Data.AppDbContext'.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2024-10-22 01:19:24.461 +03:00 [ERR] Failed To Execute:Room/Update, 400 , A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+
+2024-10-22 01:20:23.103 +03:00 [INF] Starting the application
+
+2024-10-22 01:42:44.410 +03:00 [INF] Starting the application
+
+2024-10-22 01:46:38.116 +03:00 [INF] Trying to execute: Room/Update
+2024-10-22 01:46:41.568 +03:00 [INF] Room/Update: executed successfully
+
+2024-10-22 01:46:57.230 +03:00 [INF] Trying to execute: Room/Update
+2024-10-22 01:46:57.822 +03:00 [ERR] Failed To Execute:Room/Update, 500 , Error mapping types.
+
+Mapping types:
+UpdateRoomRequestDto -> Room
+HootelBooking.Application.Dtos.Room.Request.UpdateRoomRequestDto -> HootelBooking.Domain.Entities.Room
+
+Type Map configuration:
+UpdateRoomRequestDto -> Room
+HootelBooking.Application.Dtos.Room.Request.UpdateRoomRequestDto -> HootelBooking.Domain.Entities.Room
+
+Destination Member:
+RoomType
+
+
+2024-10-22 01:48:56.047 +03:00 [INF] Starting the application
+
+2024-10-22 01:49:33.267 +03:00 [INF] Trying to execute: Room/Update
+2024-10-22 01:49:37.366 +03:00 [ERR] Failed To Execute:Room/Update, 500 , Error mapping types.
+
+Mapping types:
+UpdateRoomRequestDto -> Room
+HootelBooking.Application.Dtos.Room.Request.UpdateRoomRequestDto -> HootelBooking.Domain.Entities.Room
+
+Type Map configuration:
+UpdateRoomRequestDto -> Room
+HootelBooking.Application.Dtos.Room.Request.UpdateRoomRequestDto -> HootelBooking.Domain.Entities.Room
+
+Destination Member:
+RoomStatus
+
+
+2024-10-22 01:50:13.132 +03:00 [INF] Starting the application
+
+2024-10-22 01:50:33.940 +03:00 [INF] Trying to execute: Room/Update
+2024-10-22 01:50:38.562 +03:00 [INF] Room/Update: executed successfully
+
+2024-10-22 01:51:01.190 +03:00 [INF] Trying to execute: Room/Update
+2024-10-22 01:51:01.254 +03:00 [INF] Room/Update: executed successfully
+
+2024-10-22 01:51:12.785 +03:00 [INF] Trying to execute: Room/Update
+2024-10-22 01:51:12.959 +03:00 [ERR] Failed To Execute:Room/Update, 500 , Validation failed: Invalid Room Status
+
+2024-10-22 01:51:21.524 +03:00 [INF] Trying to execute: Room/Update
+2024-10-22 01:51:21.621 +03:00 [ERR] Failed To Execute:Room/Update, 500 , Validation failed: Invalid Bed Type
+
+2024-10-22 01:51:27.677 +03:00 [INF] Trying to execute: Room/Update
+2024-10-22 01:51:27.750 +03:00 [ERR] Failed To Execute:Room/Update, 500 , Validation failed: Invalid view Type
+
+2024-10-22 01:53:14.366 +03:00 [INF] Starting the application
+
+2024-10-22 01:56:18.213 +03:00 [INF] Trying to execute: Room/Update
+2024-10-22 01:56:22.788 +03:00 [INF] Room/Update: executed successfully
+
+2024-10-22 02:21:37.383 +03:00 [INF] Starting the application
+
+2024-10-22 02:21:41.336 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/Room/type/{type}" for actions - HootelBooking.API.Controllers.RoomController.GetByType (HootelBooking.API),HootelBooking.API.Controllers.RoomController.GetByRoomNumber (HootelBooking.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-10-22 02:22:19.712 +03:00 [INF] Starting the application
+
+2024-10-22 02:22:33.547 +03:00 [INF] Trying to execute: Room/Delete
+2024-10-22 02:22:37.208 +03:00 [INF] Room/Delete: executed successfully
+
+2024-10-22 02:22:52.946 +03:00 [INF] Trying to execute: Room/Delete
+2024-10-22 02:22:52.985 +03:00 [INF] Room/Delete: executed successfully
+
+2024-10-22 02:23:02.060 +03:00 [INF] Trying to execute: Room/Delete
+2024-10-22 02:23:02.613 +03:00 [INF] Room/Delete: executed successfully
+
+2024-10-22 02:23:56.540 +03:00 [INF] Starting the application
+
+2024-10-22 02:24:32.296 +03:00 [INF] Starting the application
+
+2024-10-22 02:24:45.977 +03:00 [INF] Trying to execute: Room/Delete
+2024-10-22 02:24:49.390 +03:00 [INF] Room/Delete: executed successfully
+
+2024-10-22 02:24:59.670 +03:00 [INF] Trying to execute: Room/GetAllActive
+2024-10-22 02:24:59.842 +03:00 [INF] Room/GetAllActive: executed successfully
+
+2024-10-22 02:25:15.830 +03:00 [INF] Trying to execute: Room/GetAllInActive
+2024-10-22 02:25:15.958 +03:00 [INF] Room/GetAllInActive: executed successfully
+
+2024-10-22 02:26:31.083 +03:00 [INF] Trying to execute: Room/GetAll
+2024-10-22 02:26:31.139 +03:00 [INF] Room/GetAll: executed successfully
+
+2024-10-22 02:26:38.468 +03:00 [INF] Trying to execute: Room/GetAllAvailable
+2024-10-22 02:26:38.517 +03:00 [INF] Room/GetAllAvailable: executed successfully
+
+2024-10-22 02:26:46.002 +03:00 [INF] Trying to execute: Room/GetAllOccupied
+2024-10-22 02:26:46.035 +03:00 [INF] Room/GetAllOccupied: executed successfully
+
+2024-10-22 02:26:57.068 +03:00 [INF] Trying to execute: Room/GetById
+2024-10-22 02:26:57.094 +03:00 [INF] Room/GetById: executed successfully
+
+2024-10-22 02:27:01.651 +03:00 [INF] Trying to execute: Room/GetById
+2024-10-22 02:27:01.663 +03:00 [INF] Room/GetById: executed successfully
+
+2024-10-22 02:27:49.013 +03:00 [INF] Trying to execute: Room/GetByRoomNumber
+2024-10-22 02:27:49.063 +03:00 [INF] Room/GetByRoomNumber: executed successfully
+
+2024-10-22 02:27:54.218 +03:00 [INF] Trying to execute: Room/GetByRoomNumber
+2024-10-22 02:27:54.271 +03:00 [INF] Room/GetByRoomNumber: executed successfully
+
+2024-10-22 02:28:02.655 +03:00 [INF] Trying to execute: Room/IsRoomAvailable
+2024-10-22 02:28:02.694 +03:00 [INF] Room/IsRoomAvailable: executed successfully
+
+2024-10-22 02:28:09.376 +03:00 [INF] Trying to execute: Room/IsRoomAvailable
+2024-10-22 02:28:09.399 +03:00 [INF] Room/IsRoomAvailable: executed successfully
+
+2024-10-22 02:30:49.943 +03:00 [INF] Starting the application
+
+2024-10-22 02:31:16.364 +03:00 [INF] Trying to execute: Room/GetByType
+2024-10-22 02:31:20.171 +03:00 [INF] Room/GetByType: executed successfully
+
+2024-10-22 02:31:29.358 +03:00 [INF] Trying to execute: Room/GetByType
+2024-10-22 02:31:29.384 +03:00 [INF] Room/GetByType: executed successfully
+
+2024-10-22 02:31:32.854 +03:00 [INF] Trying to execute: Room/GetByType
+2024-10-22 02:31:32.958 +03:00 [INF] Room/GetByType: executed successfully
+
+2024-10-22 02:31:42.723 +03:00 [INF] Trying to execute: Room/GetByType
+2024-10-22 02:31:42.739 +03:00 [INF] Room/GetByType: executed successfully
+
+2024-10-22 02:32:37.208 +03:00 [INF] Starting the application
+
+2024-10-22 02:32:59.072 +03:00 [INF] Trying to execute: Room/GetByType
+2024-10-22 02:33:02.727 +03:00 [INF] Room/GetByType: executed successfully
+
+2024-10-22 02:33:20.215 +03:00 [INF] Trying to execute: Room/Search
+2024-10-22 02:33:20.517 +03:00 [INF] Room/Search: executed successfully
+
+2024-10-22 02:33:58.454 +03:00 [INF] Starting the application
+
+2024-10-22 02:39:49.375 +03:00 [INF] Starting the application
+
+2024-10-22 02:41:30.800 +03:00 [INF] Starting the application
+
+2024-10-22 02:41:45.221 +03:00 [INF] Trying to execute: Room/Search
+2024-10-22 02:41:45.613 +03:00 [INF] Room/Search: executed successfully
+
+2024-10-22 02:42:32.086 +03:00 [INF] Starting the application
+
+2024-10-22 02:42:42.639 +03:00 [INF] Trying to execute: Room/Search
+2024-10-22 02:42:46.253 +03:00 [INF] Room/Search: executed successfully
+
+2024-10-22 02:43:02.180 +03:00 [INF] Trying to execute: Room/Search
+2024-10-22 02:43:02.374 +03:00 [INF] Room/Search: executed successfully
+
+2024-10-22 02:43:10.184 +03:00 [INF] Trying to execute: Room/Search
+2024-10-22 02:43:10.334 +03:00 [INF] Room/Search: executed successfully
+
+2024-10-22 02:43:20.958 +03:00 [INF] Trying to execute: Room/Search
+2024-10-22 02:43:21.023 +03:00 [INF] Room/Search: executed successfully
+

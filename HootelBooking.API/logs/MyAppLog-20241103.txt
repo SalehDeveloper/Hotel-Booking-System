@@ -1,0 +1,764 @@
+2024-11-03 00:38:38.620 +03:00 [INF] Start installing Hangfire SQL objects...
+2024-11-03 00:38:39.564 +03:00 [INF] Hangfire SQL objects installed.
+2024-11-03 00:38:40.026 +03:00 [INF] Starting the application
+
+2024-11-03 00:38:40.633 +03:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: .@HotelBookingV2'
+2024-11-03 00:38:40.635 +03:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2024-11-03 00:38:40.636 +03:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2024-11-03 00:38:40.937 +03:00 [INF] Server desktop-7s4kel1:17392:a2307f64 successfully announced in 191.4694 ms
+2024-11-03 00:38:40.962 +03:00 [INF] Server desktop-7s4kel1:17392:a2307f64 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2024-11-03 00:38:41.041 +03:00 [INF] 2 servers were removed due to timeout
+2024-11-03 00:38:41.215 +03:00 [INF] Server desktop-7s4kel1:17392:a2307f64 all the dispatchers started
+2024-11-03 00:39:20.858 +03:00 [INF] Trying to execute: Auth/Login
+2024-11-03 00:39:21.328 +03:00 [INF] Auth/Login: executed successfully
+
+2024-11-03 00:39:33.616 +03:00 [INF] Trying to execute: Auth/Login
+2024-11-03 00:39:34.285 +03:00 [INF] Auth/Login: executed successfully
+
+2024-11-03 00:39:40.667 +03:00 [INF] Trying to execute: Auth/Login
+2024-11-03 00:39:45.274 +03:00 [INF] Auth/Login: executed successfully
+
+2024-11-03 00:40:38.657 +03:00 [INF] Trying to execute: Auth/ConfirmTwoFactorCode
+2024-11-03 00:40:38.694 +03:00 [INF] Auth/ConfirmTwoFactorCode: executed successfully
+
+2024-11-03 00:41:14.860 +03:00 [INF] Trying to execute: Auth/ConfirmTwoFactorCode
+2024-11-03 00:41:14.885 +03:00 [INF] Auth/ConfirmTwoFactorCode: executed successfully
+
+2024-11-03 00:41:26.762 +03:00 [INF] Trying to execute: Auth/ConfirmTwoFactorCode
+2024-11-03 00:41:26.983 +03:00 [INF] Auth/ConfirmTwoFactorCode: executed successfully
+
+2024-11-03 00:41:52.944 +03:00 [INF] Trying to execute: Auth/Login
+2024-11-03 00:41:57.013 +03:00 [INF] Auth/Login: executed successfully
+
+2024-11-03 00:43:58.871 +03:00 [INF] Trying to execute: null/null
+2024-11-03 00:43:59.645 +03:00 [INF] Trying to execute: null/null
+2024-11-03 00:44:07.567 +03:00 [INF] Trying to execute: null/null
+2024-11-03 00:44:07.853 +03:00 [INF] null/null: executed successfully
+
+2024-11-03 00:44:07.855 +03:00 [INF] Trying to execute: null/null
+2024-11-03 00:44:07.856 +03:00 [INF] Trying to execute: null/null
+2024-11-03 00:44:07.856 +03:00 [INF] Trying to execute: null/null
+2024-11-03 00:44:07.894 +03:00 [INF] null/null: executed successfully
+
+2024-11-03 00:44:07.899 +03:00 [INF] null/null: executed successfully
+
+2024-11-03 00:44:07.909 +03:00 [INF] null/null: executed successfully
+
+2024-11-03 00:44:10.007 +03:00 [INF] Trying to execute: null/null
+2024-11-03 00:44:10.081 +03:00 [INF] null/null: executed successfully
+
+2024-11-03 00:44:12.102 +03:00 [INF] Trying to execute: null/null
+2024-11-03 00:44:12.150 +03:00 [INF] null/null: executed successfully
+
+2024-11-03 00:44:14.161 +03:00 [INF] Trying to execute: null/null
+2024-11-03 00:44:14.214 +03:00 [INF] null/null: executed successfully
+
+2024-11-03 00:44:15.903 +03:00 [INF] Trying to execute: null/null
+2024-11-03 00:44:15.992 +03:00 [INF] null/null: executed successfully
+
+2024-11-03 00:44:18.094 +03:00 [INF] Trying to execute: null/null
+2024-11-03 00:44:18.109 +03:00 [INF] null/null: executed successfully
+
+2024-11-03 00:44:20.122 +03:00 [INF] Trying to execute: null/null
+2024-11-03 00:44:20.153 +03:00 [INF] null/null: executed successfully
+
+2024-11-03 00:44:22.370 +03:00 [INF] Trying to execute: null/null
+2024-11-03 00:44:22.395 +03:00 [INF] null/null: executed successfully
+
+2024-11-03 00:44:25.353 +03:00 [INF] Trying to execute: null/null
+2024-11-03 00:44:25.378 +03:00 [INF] null/null: executed successfully
+
+2024-11-03 00:44:28.366 +03:00 [INF] Trying to execute: null/null
+2024-11-03 00:44:28.392 +03:00 [INF] null/null: executed successfully
+
+2024-11-03 00:44:31.356 +03:00 [INF] Trying to execute: null/null
+2024-11-03 00:44:31.375 +03:00 [INF] null/null: executed successfully
+
+2024-11-03 11:20:41.957 +03:00 [INF] Start installing Hangfire SQL objects...
+2024-11-03 11:20:42.621 +03:00 [INF] Hangfire SQL objects installed.
+2024-11-03 11:20:42.775 +03:00 [INF] Starting the application
+
+2024-11-03 11:20:43.025 +03:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: .@HotelBookingV2'
+2024-11-03 11:20:43.026 +03:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2024-11-03 11:20:43.027 +03:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2024-11-03 11:20:43.183 +03:00 [INF] Server desktop-7s4kel1:29544:d1fe980d successfully announced in 107.6609 ms
+2024-11-03 11:20:43.189 +03:00 [INF] Server desktop-7s4kel1:29544:d1fe980d is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2024-11-03 11:20:43.215 +03:00 [INF] 1 servers were removed due to timeout
+2024-11-03 11:20:43.287 +03:00 [INF] Server desktop-7s4kel1:29544:d1fe980d all the dispatchers started
+2024-11-03 11:22:06.348 +03:00 [INF] Trying to execute: RoomType/AddNew
+2024-11-03 11:22:07.717 +03:00 [INF] RoomType/AddNew: executed successfully
+
+2024-11-03 11:22:23.314 +03:00 [INF] Trying to execute: RoomType/AddNew
+2024-11-03 11:22:23.346 +03:00 [INF] RoomType/AddNew: executed successfully
+
+2024-11-03 11:24:43.452 +03:00 [INF] Start installing Hangfire SQL objects...
+2024-11-03 11:24:44.054 +03:00 [INF] Hangfire SQL objects installed.
+2024-11-03 11:24:44.283 +03:00 [INF] Starting the application
+
+2024-11-03 11:24:44.585 +03:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: .@HotelBookingV2'
+2024-11-03 11:24:44.586 +03:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2024-11-03 11:24:44.587 +03:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2024-11-03 11:24:44.837 +03:00 [INF] Server desktop-7s4kel1:19228:1286874a successfully announced in 234.5058 ms
+2024-11-03 11:24:44.843 +03:00 [INF] Server desktop-7s4kel1:19228:1286874a is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2024-11-03 11:24:44.937 +03:00 [INF] Server desktop-7s4kel1:19228:1286874a all the dispatchers started
+2024-11-03 11:25:08.197 +03:00 [INF] Trying to execute: RoomType/AddNew
+2024-11-03 11:25:08.743 +03:00 [INF] RoomType/AddNew: executed successfully
+
+2024-11-03 11:25:41.775 +03:00 [INF] Trying to execute: RoomType/AddNew
+2024-11-03 11:25:42.330 +03:00 [INF] RoomType/AddNew: executed successfully
+
+2024-11-03 11:28:11.880 +03:00 [INF] Start installing Hangfire SQL objects...
+2024-11-03 11:28:12.339 +03:00 [INF] Hangfire SQL objects installed.
+2024-11-03 11:28:12.456 +03:00 [INF] Starting the application
+
+2024-11-03 11:28:12.647 +03:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: .@HotelBookingV2'
+2024-11-03 11:28:12.649 +03:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2024-11-03 11:28:12.650 +03:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2024-11-03 11:28:12.743 +03:00 [INF] Server desktop-7s4kel1:11244:8e11aecf successfully announced in 79.0172 ms
+2024-11-03 11:28:12.749 +03:00 [INF] Server desktop-7s4kel1:11244:8e11aecf is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2024-11-03 11:28:12.775 +03:00 [INF] 1 servers were removed due to timeout
+2024-11-03 11:28:12.838 +03:00 [INF] Server desktop-7s4kel1:11244:8e11aecf all the dispatchers started
+2024-11-03 11:28:29.735 +03:00 [INF] Trying to execute: RoomType/AddNew
+2024-11-03 11:35:07.939 +03:00 [INF] Start installing Hangfire SQL objects...
+2024-11-03 11:35:08.474 +03:00 [INF] Hangfire SQL objects installed.
+2024-11-03 11:35:08.625 +03:00 [INF] Starting the application
+
+2024-11-03 11:35:08.861 +03:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: .@HotelBookingV2'
+2024-11-03 11:35:08.862 +03:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2024-11-03 11:35:08.863 +03:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2024-11-03 11:35:08.964 +03:00 [INF] Server desktop-7s4kel1:4432:8acb3afa successfully announced in 86.0333 ms
+2024-11-03 11:35:08.968 +03:00 [INF] Server desktop-7s4kel1:4432:8acb3afa is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2024-11-03 11:35:08.997 +03:00 [INF] 2 servers were removed due to timeout
+2024-11-03 11:35:09.031 +03:00 [INF] Server desktop-7s4kel1:4432:8acb3afa all the dispatchers started
+2024-11-03 11:35:48.894 +03:00 [INF] Trying to execute: RoomType/AddNew
+2024-11-03 11:35:59.845 +03:00 [INF] Trying to execute: RoomType/AddNew
+2024-11-03 11:36:01.042 +03:00 [INF] RoomType/AddNew: executed successfully
+
+2024-11-03 11:39:17.703 +03:00 [INF] Start installing Hangfire SQL objects...
+2024-11-03 11:39:18.205 +03:00 [INF] Hangfire SQL objects installed.
+2024-11-03 11:39:18.334 +03:00 [INF] Starting the application
+
+2024-11-03 11:39:18.535 +03:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: .@HotelBookingV2'
+2024-11-03 11:39:18.538 +03:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2024-11-03 11:39:18.539 +03:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2024-11-03 11:39:18.640 +03:00 [INF] Server desktop-7s4kel1:20376:1a397a63 successfully announced in 84.4933 ms
+2024-11-03 11:39:18.645 +03:00 [INF] Server desktop-7s4kel1:20376:1a397a63 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2024-11-03 11:39:18.764 +03:00 [INF] Server desktop-7s4kel1:20376:1a397a63 all the dispatchers started
+2024-11-03 11:39:43.889 +03:00 [INF] Trying to execute: RoomType/AddNew
+2024-11-03 11:39:45.077 +03:00 [INF] RoomType/AddNew: executed successfully
+
+2024-11-03 11:39:51.151 +03:00 [INF] Trying to execute: RoomType/AddNew
+2024-11-03 11:39:51.284 +03:00 [INF] RoomType/AddNew: executed successfully
+
+2024-11-03 11:40:01.392 +03:00 [INF] Trying to execute: RoomType/AddNew
+2024-11-03 11:40:01.763 +03:00 [INF] RoomType/AddNew: executed successfully
+
+2024-11-03 11:41:54.447 +03:00 [INF] Start installing Hangfire SQL objects...
+2024-11-03 11:41:54.959 +03:00 [INF] Hangfire SQL objects installed.
+2024-11-03 11:41:55.084 +03:00 [INF] Starting the application
+
+2024-11-03 11:41:55.295 +03:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: .@HotelBookingV2'
+2024-11-03 11:41:55.296 +03:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2024-11-03 11:41:55.297 +03:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2024-11-03 11:41:55.438 +03:00 [INF] Server desktop-7s4kel1:21224:be046908 successfully announced in 121.0932 ms
+2024-11-03 11:41:55.444 +03:00 [INF] Server desktop-7s4kel1:21224:be046908 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2024-11-03 11:41:55.494 +03:00 [INF] 1 servers were removed due to timeout
+2024-11-03 11:41:55.574 +03:00 [INF] Server desktop-7s4kel1:21224:be046908 all the dispatchers started
+2024-11-03 11:42:27.658 +03:00 [INF] Trying to execute: RoomType/AddNew
+2024-11-03 11:42:29.446 +03:00 [INF] RoomType/AddNew: executed successfully
+
+2024-11-03 12:18:36.976 +03:00 [INF] Start installing Hangfire SQL objects...
+2024-11-03 12:18:37.630 +03:00 [INF] Hangfire SQL objects installed.
+2024-11-03 12:18:37.776 +03:00 [INF] Starting the application
+
+2024-11-03 12:18:38.037 +03:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: .@HotelBookingV2'
+2024-11-03 12:18:38.040 +03:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2024-11-03 12:18:38.041 +03:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2024-11-03 12:18:38.178 +03:00 [INF] Server desktop-7s4kel1:12144:47aa4198 successfully announced in 121.8836 ms
+2024-11-03 12:18:38.184 +03:00 [INF] Server desktop-7s4kel1:12144:47aa4198 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2024-11-03 12:18:38.215 +03:00 [INF] 2 servers were removed due to timeout
+2024-11-03 12:18:38.280 +03:00 [INF] Server desktop-7s4kel1:12144:47aa4198 all the dispatchers started
+2024-11-03 12:19:19.585 +03:00 [INF] Trying to execute: Room/AddNew
+2024-11-03 12:19:30.190 +03:00 [INF] Trying to execute: Room/AddNew
+2024-11-03 12:19:31.209 +03:00 [INF] Room/AddNew: executed successfully
+
+2024-11-03 12:19:40.618 +03:00 [INF] Trying to execute: Room/AddNew
+2024-11-03 12:19:40.747 +03:00 [INF] Room/AddNew: executed successfully
+
+2024-11-03 12:19:50.286 +03:00 [INF] Trying to execute: Room/AddNew
+2024-11-03 12:20:32.537 +03:00 [INF] Trying to execute: Room/AddNew
+2024-11-03 12:20:32.684 +03:00 [INF] Room/AddNew: executed successfully
+
+2024-11-03 12:22:12.249 +03:00 [INF] Start installing Hangfire SQL objects...
+2024-11-03 12:22:12.694 +03:00 [INF] Hangfire SQL objects installed.
+2024-11-03 12:22:12.809 +03:00 [INF] Starting the application
+
+2024-11-03 12:22:13.005 +03:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: .@HotelBookingV2'
+2024-11-03 12:22:13.007 +03:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2024-11-03 12:22:13.007 +03:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2024-11-03 12:22:13.210 +03:00 [INF] Server desktop-7s4kel1:23332:58729164 successfully announced in 186.9361 ms
+2024-11-03 12:22:13.218 +03:00 [INF] Server desktop-7s4kel1:23332:58729164 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2024-11-03 12:22:13.307 +03:00 [INF] Server desktop-7s4kel1:23332:58729164 all the dispatchers started
+2024-11-03 12:22:38.405 +03:00 [INF] Trying to execute: Room/AddNew
+2024-11-03 12:22:56.544 +03:00 [INF] Trying to execute: Room/AddNew
+2024-11-03 12:23:32.406 +03:00 [INF] Start installing Hangfire SQL objects...
+2024-11-03 12:23:32.890 +03:00 [INF] Hangfire SQL objects installed.
+2024-11-03 12:23:33.003 +03:00 [INF] Starting the application
+
+2024-11-03 12:23:33.200 +03:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: .@HotelBookingV2'
+2024-11-03 12:23:33.203 +03:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2024-11-03 12:23:33.203 +03:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2024-11-03 12:23:33.299 +03:00 [INF] Server desktop-7s4kel1:12380:3094b4fd successfully announced in 80.8494 ms
+2024-11-03 12:23:33.305 +03:00 [INF] Server desktop-7s4kel1:12380:3094b4fd is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2024-11-03 12:23:33.371 +03:00 [INF] Server desktop-7s4kel1:12380:3094b4fd all the dispatchers started
+2024-11-03 12:25:33.125 +03:00 [INF] Trying to execute: Room/Update
+2024-11-03 12:25:34.581 +03:00 [INF] Room/Update: executed successfully
+
+2024-11-03 14:30:27.470 +03:00 [INF] Start installing Hangfire SQL objects...
+2024-11-03 14:30:28.017 +03:00 [INF] Hangfire SQL objects installed.
+2024-11-03 14:30:28.196 +03:00 [INF] Starting the application
+
+2024-11-03 14:30:28.441 +03:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: .@HotelBookingV2'
+2024-11-03 14:30:28.443 +03:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2024-11-03 14:30:28.443 +03:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2024-11-03 14:30:28.558 +03:00 [INF] Server desktop-7s4kel1:24136:f5a20804 successfully announced in 99.689 ms
+2024-11-03 14:30:28.563 +03:00 [INF] Server desktop-7s4kel1:24136:f5a20804 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2024-11-03 14:30:28.585 +03:00 [INF] 3 servers were removed due to timeout
+2024-11-03 14:30:28.635 +03:00 [INF] Server desktop-7s4kel1:24136:f5a20804 all the dispatchers started
+2024-11-03 14:30:59.240 +03:00 [INF] Trying to execute: User/AddUser
+2024-11-03 14:37:04.204 +03:00 [INF] Start installing Hangfire SQL objects...
+2024-11-03 14:37:04.884 +03:00 [INF] Hangfire SQL objects installed.
+2024-11-03 14:37:05.039 +03:00 [INF] Starting the application
+
+2024-11-03 14:37:05.308 +03:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: .@HotelBookingV2'
+2024-11-03 14:37:05.309 +03:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2024-11-03 14:37:05.310 +03:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2024-11-03 14:37:05.435 +03:00 [INF] Server desktop-7s4kel1:17468:29090dff successfully announced in 108.3643 ms
+2024-11-03 14:37:05.440 +03:00 [INF] Server desktop-7s4kel1:17468:29090dff is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2024-11-03 14:37:05.481 +03:00 [INF] 1 servers were removed due to timeout
+2024-11-03 14:37:05.547 +03:00 [INF] Server desktop-7s4kel1:17468:29090dff all the dispatchers started
+2024-11-03 14:38:30.132 +03:00 [INF] Start installing Hangfire SQL objects...
+2024-11-03 14:38:30.633 +03:00 [INF] Hangfire SQL objects installed.
+2024-11-03 14:38:30.776 +03:00 [INF] Starting the application
+
+2024-11-03 14:38:31.015 +03:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: .@HotelBookingV2'
+2024-11-03 14:38:31.017 +03:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2024-11-03 14:38:31.018 +03:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2024-11-03 14:38:31.212 +03:00 [INF] Server desktop-7s4kel1:29924:d0790dcb successfully announced in 169.5481 ms
+2024-11-03 14:38:31.218 +03:00 [INF] Server desktop-7s4kel1:29924:d0790dcb is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2024-11-03 14:38:31.286 +03:00 [INF] Server desktop-7s4kel1:29924:d0790dcb all the dispatchers started
+2024-11-03 14:39:25.022 +03:00 [INF] Trying to execute: Auth/Login
+2024-11-03 14:39:26.199 +03:00 [INF] Auth/Login: executed successfully
+
+2024-11-03 14:40:17.775 +03:00 [INF] Trying to execute: User/AddUser
+2024-11-03 14:41:51.493 +03:00 [INF] Start installing Hangfire SQL objects...
+2024-11-03 14:41:51.951 +03:00 [INF] Hangfire SQL objects installed.
+2024-11-03 14:41:52.070 +03:00 [INF] Starting the application
+
+2024-11-03 14:41:52.264 +03:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: .@HotelBookingV2'
+2024-11-03 14:41:52.266 +03:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2024-11-03 14:41:52.267 +03:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2024-11-03 14:41:52.366 +03:00 [INF] Server desktop-7s4kel1:16164:5437ad80 successfully announced in 83.0172 ms
+2024-11-03 14:41:52.372 +03:00 [INF] Server desktop-7s4kel1:16164:5437ad80 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2024-11-03 14:41:52.468 +03:00 [INF] Server desktop-7s4kel1:16164:5437ad80 all the dispatchers started
+2024-11-03 14:43:41.451 +03:00 [INF] Start installing Hangfire SQL objects...
+2024-11-03 14:43:41.945 +03:00 [INF] Hangfire SQL objects installed.
+2024-11-03 14:43:42.070 +03:00 [INF] Starting the application
+
+2024-11-03 14:43:42.256 +03:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: .@HotelBookingV2'
+2024-11-03 14:43:42.258 +03:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2024-11-03 14:43:42.259 +03:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2024-11-03 14:43:42.351 +03:00 [INF] Server desktop-7s4kel1:16344:2a86e4ab successfully announced in 77.8576 ms
+2024-11-03 14:43:42.358 +03:00 [INF] Server desktop-7s4kel1:16344:2a86e4ab is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2024-11-03 14:43:42.379 +03:00 [INF] 1 servers were removed due to timeout
+2024-11-03 14:43:42.427 +03:00 [INF] Server desktop-7s4kel1:16344:2a86e4ab all the dispatchers started
+2024-11-03 14:43:53.682 +03:00 [INF] Start installing Hangfire SQL objects...
+2024-11-03 14:43:54.122 +03:00 [INF] Hangfire SQL objects installed.
+2024-11-03 14:43:54.243 +03:00 [INF] Starting the application
+
+2024-11-03 14:43:54.483 +03:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: .@HotelBookingV2'
+2024-11-03 14:43:54.484 +03:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2024-11-03 14:43:54.484 +03:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2024-11-03 14:43:54.577 +03:00 [INF] Server desktop-7s4kel1:24964:d774b143 successfully announced in 78.6564 ms
+2024-11-03 14:43:54.582 +03:00 [INF] Server desktop-7s4kel1:24964:d774b143 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2024-11-03 14:43:54.667 +03:00 [INF] Server desktop-7s4kel1:24964:d774b143 all the dispatchers started
+2024-11-03 14:44:23.915 +03:00 [INF] Trying to execute: User/AddUser
+2024-11-03 14:45:16.980 +03:00 [INF] Start installing Hangfire SQL objects...
+2024-11-03 14:45:17.513 +03:00 [INF] Hangfire SQL objects installed.
+2024-11-03 14:45:17.650 +03:00 [INF] Starting the application
+
+2024-11-03 14:45:17.856 +03:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: .@HotelBookingV2'
+2024-11-03 14:45:17.857 +03:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2024-11-03 14:45:17.857 +03:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2024-11-03 14:45:17.981 +03:00 [INF] Server desktop-7s4kel1:30012:58380f2e successfully announced in 107.3882 ms
+2024-11-03 14:45:17.999 +03:00 [INF] Server desktop-7s4kel1:30012:58380f2e is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2024-11-03 14:45:18.320 +03:00 [INF] Server desktop-7s4kel1:30012:58380f2e all the dispatchers started
+2024-11-03 14:45:31.385 +03:00 [INF] Trying to execute: User/AddUser
+2024-11-03 14:46:17.020 +03:00 [INF] Trying to execute: Auth/Login
+2024-11-03 14:46:17.994 +03:00 [INF] Auth/Login: executed successfully
+
+2024-11-03 14:46:39.262 +03:00 [INF] Trying to execute: User/AddUser
+2024-11-03 14:46:42.253 +03:00 [INF] Trying to execute: User/AddUser
+2024-11-03 14:47:17.061 +03:00 [INF] Trying to execute: User/AddUser
+2024-11-03 14:47:25.453 +03:00 [INF] Trying to execute: User/AddUser
+2024-11-03 14:47:59.625 +03:00 [INF] Trying to execute: Auth/Login
+2024-11-03 14:48:03.522 +03:00 [INF] Auth/Login: executed successfully
+
+2024-11-03 14:48:50.965 +03:00 [INF] Trying to execute: Auth/ConfirmTwoFactorCode
+2024-11-03 14:48:51.032 +03:00 [INF] Auth/ConfirmTwoFactorCode: executed successfully
+
+2024-11-03 14:50:04.885 +03:00 [INF] Trying to execute: User/AddUser
+2024-11-03 14:50:18.038 +03:00 [INF] 4 servers were removed due to timeout
+2024-11-03 14:57:41.058 +03:00 [INF] Start installing Hangfire SQL objects...
+2024-11-03 14:57:41.637 +03:00 [INF] Hangfire SQL objects installed.
+2024-11-03 14:57:41.780 +03:00 [INF] Starting the application
+
+2024-11-03 14:57:42.038 +03:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: .@HotelBookingV2'
+2024-11-03 14:57:42.040 +03:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2024-11-03 14:57:42.041 +03:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2024-11-03 14:57:42.151 +03:00 [INF] Server desktop-7s4kel1:29000:3992a2c6 successfully announced in 94.339 ms
+2024-11-03 14:57:42.160 +03:00 [INF] Server desktop-7s4kel1:29000:3992a2c6 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2024-11-03 14:57:42.229 +03:00 [INF] Server desktop-7s4kel1:29000:3992a2c6 all the dispatchers started
+2024-11-03 14:58:46.066 +03:00 [INF] Trying to execute: User/AddUser
+2024-11-03 14:59:02.954 +03:00 [INF] Trying to execute: User/AddUser
+2024-11-03 14:59:17.555 +03:00 [INF] Trying to execute: User/AddUser
+2024-11-03 14:59:18.456 +03:00 [INF] User/AddUser: executed successfully
+
+2024-11-03 15:02:26.983 +03:00 [INF] Start installing Hangfire SQL objects...
+2024-11-03 15:02:27.503 +03:00 [INF] Hangfire SQL objects installed.
+2024-11-03 15:02:27.627 +03:00 [INF] Starting the application
+
+2024-11-03 15:02:27.853 +03:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: .@HotelBookingV2'
+2024-11-03 15:02:27.855 +03:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2024-11-03 15:02:27.857 +03:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2024-11-03 15:02:28.019 +03:00 [INF] Server desktop-7s4kel1:28956:7eb6ef81 successfully announced in 135.6985 ms
+2024-11-03 15:02:28.027 +03:00 [INF] Server desktop-7s4kel1:28956:7eb6ef81 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2024-11-03 15:02:28.059 +03:00 [INF] 1 servers were removed due to timeout
+2024-11-03 15:02:28.134 +03:00 [INF] Server desktop-7s4kel1:28956:7eb6ef81 all the dispatchers started
+2024-11-03 15:03:04.122 +03:00 [INF] Trying to execute: Auth/Login
+2024-11-03 15:03:05.372 +03:00 [INF] Auth/Login: executed successfully
+
+2024-11-03 15:08:38.696 +03:00 [INF] Start installing Hangfire SQL objects...
+2024-11-03 15:08:39.239 +03:00 [INF] Hangfire SQL objects installed.
+2024-11-03 15:08:39.431 +03:00 [INF] Starting the application
+
+2024-11-03 15:08:39.683 +03:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: .@HotelBookingV2'
+2024-11-03 15:08:39.684 +03:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2024-11-03 15:08:39.685 +03:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2024-11-03 15:08:39.793 +03:00 [INF] Server desktop-7s4kel1:18040:2fcecf7f successfully announced in 93.3625 ms
+2024-11-03 15:08:39.798 +03:00 [INF] Server desktop-7s4kel1:18040:2fcecf7f is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2024-11-03 15:08:39.822 +03:00 [INF] 1 servers were removed due to timeout
+2024-11-03 15:08:39.882 +03:00 [INF] Server desktop-7s4kel1:18040:2fcecf7f all the dispatchers started
+2024-11-03 15:09:06.298 +03:00 [INF] Trying to execute: Auth/Login
+2024-11-03 15:14:57.028 +03:00 [INF] Start installing Hangfire SQL objects...
+2024-11-03 15:14:57.703 +03:00 [INF] Hangfire SQL objects installed.
+2024-11-03 15:14:57.867 +03:00 [INF] Starting the application
+
+2024-11-03 15:14:58.174 +03:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: .@HotelBookingV2'
+2024-11-03 15:14:58.175 +03:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2024-11-03 15:14:58.176 +03:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2024-11-03 15:14:58.324 +03:00 [INF] Server desktop-7s4kel1:25052:c1943599 successfully announced in 132.1365 ms
+2024-11-03 15:14:58.329 +03:00 [INF] Server desktop-7s4kel1:25052:c1943599 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2024-11-03 15:14:58.411 +03:00 [INF] 2 servers were removed due to timeout
+2024-11-03 15:14:58.421 +03:00 [INF] Server desktop-7s4kel1:25052:c1943599 all the dispatchers started
+2024-11-03 15:15:21.230 +03:00 [INF] Trying to execute: Auth/ForgotPassword
+2024-11-03 15:23:30.048 +03:00 [INF] Start installing Hangfire SQL objects...
+2024-11-03 15:23:30.606 +03:00 [INF] Hangfire SQL objects installed.
+2024-11-03 15:23:30.764 +03:00 [INF] Starting the application
+
+2024-11-03 15:23:31.001 +03:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: .@HotelBookingV2'
+2024-11-03 15:23:31.002 +03:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2024-11-03 15:23:31.003 +03:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2024-11-03 15:23:31.141 +03:00 [INF] Server desktop-7s4kel1:1808:404ac3d5 successfully announced in 114.4169 ms
+2024-11-03 15:23:31.147 +03:00 [INF] Server desktop-7s4kel1:1808:404ac3d5 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2024-11-03 15:23:31.390 +03:00 [INF] Server desktop-7s4kel1:1808:404ac3d5 all the dispatchers started
+2024-11-03 15:24:01.351 +03:00 [INF] Trying to execute: Auth/ResetPassword
+2024-11-03 16:47:32.156 +03:00 [INF] Start installing Hangfire SQL objects...
+2024-11-03 16:47:32.957 +03:00 [INF] Hangfire SQL objects installed.
+2024-11-03 16:47:33.122 +03:00 [INF] Starting the application
+
+2024-11-03 16:47:33.413 +03:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: .@HotelBookingV2'
+2024-11-03 16:47:33.414 +03:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2024-11-03 16:47:33.414 +03:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2024-11-03 16:47:33.544 +03:00 [INF] Server desktop-7s4kel1:2256:29851cbb successfully announced in 111.5261 ms
+2024-11-03 16:47:33.552 +03:00 [INF] Server desktop-7s4kel1:2256:29851cbb is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2024-11-03 16:47:33.577 +03:00 [INF] 2 servers were removed due to timeout
+2024-11-03 16:47:33.675 +03:00 [INF] Server desktop-7s4kel1:2256:29851cbb all the dispatchers started
+2024-11-03 16:51:12.871 +03:00 [INF] Start installing Hangfire SQL objects...
+2024-11-03 16:51:13.709 +03:00 [INF] Hangfire SQL objects installed.
+2024-11-03 16:51:13.917 +03:00 [INF] Starting the application
+
+2024-11-03 16:51:14.340 +03:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: .@HotelBookingV2'
+2024-11-03 16:51:14.343 +03:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2024-11-03 16:51:14.345 +03:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2024-11-03 16:51:14.683 +03:00 [INF] Server desktop-7s4kel1:13412:3182387f successfully announced in 278.6216 ms
+2024-11-03 16:51:14.687 +03:00 [INF] Server desktop-7s4kel1:13412:3182387f is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2024-11-03 16:51:15.017 +03:00 [INF] Server desktop-7s4kel1:13412:3182387f all the dispatchers started
+2024-11-03 16:51:52.825 +03:00 [INF] Trying to execute: System/Delete
+2024-11-03 16:51:53.921 +03:00 [INF] System/Delete: executed successfully
+
+2024-11-03 16:52:03.039 +03:00 [INF] Trying to execute: System/Delete
+2024-11-03 16:52:37.107 +03:00 [INF] Trying to execute: System/Delete
+2024-11-03 16:52:43.137 +03:00 [INF] Trying to execute: System/Delete
+2024-11-03 16:52:43.372 +03:00 [INF] System/Delete: executed successfully
+
+2024-11-03 16:53:58.795 +03:00 [INF] Trying to execute: System/Delete
+2024-11-03 16:55:42.204 +03:00 [INF] Trying to execute: System/Delete
+2024-11-03 16:55:42.286 +03:00 [INF] System/Delete: executed successfully
+
+2024-11-03 16:56:07.819 +03:00 [INF] Trying to execute: System/Delete
+2024-11-03 16:56:14.733 +03:00 [INF] 1 servers were removed due to timeout
+2024-11-03 16:56:41.690 +03:00 [INF] Trying to execute: System/Delete
+2024-11-03 16:57:01.561 +03:00 [INF] Trying to execute: System/Delete
+2024-11-03 16:57:01.594 +03:00 [INF] System/Delete: executed successfully
+
+2024-11-03 16:57:04.718 +03:00 [INF] Trying to execute: System/Delete
+2024-11-03 16:57:04.758 +03:00 [INF] System/Delete: executed successfully
+
+2024-11-03 16:57:05.806 +03:00 [INF] Trying to execute: System/Delete
+2024-11-03 16:57:05.828 +03:00 [INF] System/Delete: executed successfully
+
+2024-11-03 16:57:06.411 +03:00 [INF] Trying to execute: System/Delete
+2024-11-03 16:57:06.429 +03:00 [INF] System/Delete: executed successfully
+
+2024-11-03 16:57:06.835 +03:00 [INF] Trying to execute: System/Delete
+2024-11-03 16:57:06.853 +03:00 [INF] System/Delete: executed successfully
+
+2024-11-03 16:57:07.249 +03:00 [INF] Trying to execute: System/Delete
+2024-11-03 16:57:07.269 +03:00 [INF] System/Delete: executed successfully
+
+2024-11-03 16:57:07.643 +03:00 [INF] Trying to execute: System/Delete
+2024-11-03 16:57:07.665 +03:00 [INF] System/Delete: executed successfully
+
+2024-11-03 16:57:08.030 +03:00 [INF] Trying to execute: System/Delete
+2024-11-03 16:57:08.054 +03:00 [INF] System/Delete: executed successfully
+
+2024-11-03 16:57:11.476 +03:00 [INF] Trying to execute: System/Delete
+2024-11-03 16:57:11.490 +03:00 [INF] System/Delete: executed successfully
+
+2024-11-03 17:07:38.963 +03:00 [INF] Start installing Hangfire SQL objects...
+2024-11-03 17:07:39.708 +03:00 [INF] Hangfire SQL objects installed.
+2024-11-03 17:07:39.881 +03:00 [INF] Starting the application
+
+2024-11-03 17:07:40.158 +03:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: .@HotelBookingV2'
+2024-11-03 17:07:40.159 +03:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2024-11-03 17:07:40.160 +03:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2024-11-03 17:07:40.275 +03:00 [INF] Server desktop-7s4kel1:25756:1c592c03 successfully announced in 99.4815 ms
+2024-11-03 17:07:40.286 +03:00 [INF] Server desktop-7s4kel1:25756:1c592c03 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2024-11-03 17:07:40.311 +03:00 [INF] 1 servers were removed due to timeout
+2024-11-03 17:07:40.354 +03:00 [INF] Server desktop-7s4kel1:25756:1c592c03 all the dispatchers started
+2024-11-03 17:07:56.039 +03:00 [INF] Trying to execute: System/Delete
+2024-11-03 17:07:57.574 +03:00 [INF] System/Delete: executed successfully
+
+2024-11-03 17:36:18.845 +03:00 [INF] Start installing Hangfire SQL objects...
+2024-11-03 17:36:19.659 +03:00 [INF] Hangfire SQL objects installed.
+2024-11-03 17:36:19.842 +03:00 [INF] Starting the application
+
+2024-11-03 17:36:20.162 +03:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: .@HotelBookingV2'
+2024-11-03 17:36:20.164 +03:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2024-11-03 17:36:20.166 +03:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2024-11-03 17:36:20.552 +03:00 [INF] Server desktop-7s4kel1:23456:f2233173 successfully announced in 359.639 ms
+2024-11-03 17:36:20.559 +03:00 [INF] Server desktop-7s4kel1:23456:f2233173 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2024-11-03 17:36:20.583 +03:00 [INF] 1 servers were removed due to timeout
+2024-11-03 17:36:20.637 +03:00 [INF] Server desktop-7s4kel1:23456:f2233173 all the dispatchers started
+2024-11-03 17:36:45.958 +03:00 [INF] Trying to execute: System/Activate
+2024-11-03 17:36:51.937 +03:00 [INF] Trying to execute: System/Activate
+2024-11-03 17:36:53.243 +03:00 [INF] System/Activate: executed successfully
+
+2024-11-03 17:37:32.837 +03:00 [INF] Start installing Hangfire SQL objects...
+2024-11-03 17:37:33.421 +03:00 [INF] Hangfire SQL objects installed.
+2024-11-03 17:37:33.565 +03:00 [INF] Starting the application
+
+2024-11-03 17:37:33.806 +03:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: .@HotelBookingV2'
+2024-11-03 17:37:33.809 +03:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2024-11-03 17:37:33.813 +03:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2024-11-03 17:37:34.046 +03:00 [INF] Server desktop-7s4kel1:25568:a2a03353 successfully announced in 213.7778 ms
+2024-11-03 17:37:34.056 +03:00 [INF] Server desktop-7s4kel1:25568:a2a03353 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2024-11-03 17:37:34.485 +03:00 [INF] Server desktop-7s4kel1:25568:a2a03353 all the dispatchers started
+2024-11-03 17:38:12.071 +03:00 [INF] Trying to execute: System/Activate
+2024-11-03 17:38:13.827 +03:00 [INF] System/Activate: executed successfully
+
+2024-11-03 17:38:45.969 +03:00 [INF] Trying to execute: System/DeActivate
+2024-11-03 17:38:46.045 +03:00 [INF] System/DeActivate: executed successfully
+
+2024-11-03 17:39:33.481 +03:00 [INF] Trying to execute: System/DeActivate
+2024-11-03 23:39:28.032 +03:00 [INF] Start installing Hangfire SQL objects...
+2024-11-03 23:39:28.775 +03:00 [INF] Hangfire SQL objects installed.
+2024-11-03 23:39:28.953 +03:00 [INF] Starting the application
+
+2024-11-03 23:39:29.255 +03:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: .@HotelBookingV2'
+2024-11-03 23:39:29.257 +03:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2024-11-03 23:39:29.258 +03:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2024-11-03 23:39:29.428 +03:00 [INF] Server desktop-7s4kel1:23596:690d62f2 successfully announced in 150.6987 ms
+2024-11-03 23:39:29.434 +03:00 [INF] Server desktop-7s4kel1:23596:690d62f2 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2024-11-03 23:39:29.469 +03:00 [INF] 2 servers were removed due to timeout
+2024-11-03 23:39:29.504 +03:00 [INF] Server desktop-7s4kel1:23596:690d62f2 all the dispatchers started
+2024-11-03 23:39:57.656 +03:00 [INF] Start installing Hangfire SQL objects...
+2024-11-03 23:39:58.269 +03:00 [INF] Hangfire SQL objects installed.
+2024-11-03 23:39:58.442 +03:00 [INF] Starting the application
+
+2024-11-03 23:39:58.668 +03:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: .@HotelBookingV2'
+2024-11-03 23:39:58.669 +03:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2024-11-03 23:39:58.671 +03:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2024-11-03 23:39:58.823 +03:00 [INF] Server desktop-7s4kel1:22932:09f573f5 successfully announced in 132.3524 ms
+2024-11-03 23:39:58.829 +03:00 [INF] Server desktop-7s4kel1:22932:09f573f5 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2024-11-03 23:39:58.928 +03:00 [INF] Server desktop-7s4kel1:22932:09f573f5 all the dispatchers started
+2024-11-03 23:40:08.368 +03:00 [INF] Start installing Hangfire SQL objects...
+2024-11-03 23:40:08.869 +03:00 [INF] Hangfire SQL objects installed.
+2024-11-03 23:40:09.010 +03:00 [INF] Starting the application
+
+2024-11-03 23:40:09.342 +03:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: .@HotelBookingV2'
+2024-11-03 23:40:09.343 +03:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2024-11-03 23:40:09.344 +03:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2024-11-03 23:40:09.509 +03:00 [INF] Server desktop-7s4kel1:23508:53db3e96 successfully announced in 130.3048 ms
+2024-11-03 23:40:09.515 +03:00 [INF] Server desktop-7s4kel1:23508:53db3e96 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2024-11-03 23:40:09.589 +03:00 [INF] Server desktop-7s4kel1:23508:53db3e96 all the dispatchers started
+2024-11-03 23:40:26.873 +03:00 [INF] Trying to execute: Country/GetAll
+2024-11-03 23:40:32.549 +03:00 [INF] Trying to execute: Country/GetAll
+2024-11-03 23:40:33.576 +03:00 [INF] Country/GetAll: executed successfully
+
+2024-11-03 23:41:21.185 +03:00 [INF] Start installing Hangfire SQL objects...
+2024-11-03 23:41:21.700 +03:00 [INF] Hangfire SQL objects installed.
+2024-11-03 23:41:21.846 +03:00 [INF] Starting the application
+
+2024-11-03 23:41:22.090 +03:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: .@HotelBookingV2'
+2024-11-03 23:41:22.092 +03:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2024-11-03 23:41:22.093 +03:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2024-11-03 23:41:22.273 +03:00 [INF] Server desktop-7s4kel1:26232:5c49ed45 successfully announced in 162.7307 ms
+2024-11-03 23:41:22.282 +03:00 [INF] Server desktop-7s4kel1:26232:5c49ed45 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2024-11-03 23:41:22.545 +03:00 [INF] Server desktop-7s4kel1:26232:5c49ed45 all the dispatchers started
+2024-11-03 23:41:41.793 +03:00 [INF] Trying to execute: System/ChangeRole
+2024-11-03 23:42:03.289 +03:00 [INF] Start installing Hangfire SQL objects...
+2024-11-03 23:42:03.773 +03:00 [INF] Hangfire SQL objects installed.
+2024-11-03 23:42:03.909 +03:00 [INF] Starting the application
+
+2024-11-03 23:42:04.118 +03:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: .@HotelBookingV2'
+2024-11-03 23:42:04.122 +03:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2024-11-03 23:42:04.123 +03:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2024-11-03 23:42:04.235 +03:00 [INF] Server desktop-7s4kel1:12364:4a06fc39 successfully announced in 97.867 ms
+2024-11-03 23:42:04.243 +03:00 [INF] Server desktop-7s4kel1:12364:4a06fc39 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2024-11-03 23:42:04.322 +03:00 [INF] Server desktop-7s4kel1:12364:4a06fc39 all the dispatchers started
+2024-11-03 23:42:23.112 +03:00 [INF] Trying to execute: System/ChangeRole
+2024-11-03 23:42:24.082 +03:00 [INF] System/ChangeRole: executed successfully
+
+2024-11-03 23:42:30.471 +03:00 [INF] Trying to execute: System/ChangeRole
+2024-11-03 23:43:07.442 +03:00 [INF] Trying to execute: System/ChangeRole
+2024-11-03 23:43:07.969 +03:00 [INF] System/ChangeRole: executed successfully
+
+2024-11-03 23:45:16.569 +03:00 [INF] Start installing Hangfire SQL objects...
+2024-11-03 23:45:17.113 +03:00 [INF] Hangfire SQL objects installed.
+2024-11-03 23:45:17.251 +03:00 [INF] Starting the application
+
+2024-11-03 23:45:17.484 +03:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: .@HotelBookingV2'
+2024-11-03 23:45:17.488 +03:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2024-11-03 23:45:17.491 +03:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2024-11-03 23:45:17.630 +03:00 [INF] Server desktop-7s4kel1:20980:59b9c8cd successfully announced in 120.2139 ms
+2024-11-03 23:45:17.638 +03:00 [INF] Server desktop-7s4kel1:20980:59b9c8cd is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2024-11-03 23:45:17.659 +03:00 [INF] 2 servers were removed due to timeout
+2024-11-03 23:45:17.792 +03:00 [INF] Server desktop-7s4kel1:20980:59b9c8cd all the dispatchers started
+2024-11-03 23:45:35.591 +03:00 [INF] Trying to execute: System/ChangeRole
+2024-11-03 23:46:50.898 +03:00 [INF] Trying to execute: System/ChangeRole
+2024-11-03 23:47:18.966 +03:00 [INF] Trying to execute: System/ChangeRole
+2024-11-03 23:47:42.288 +03:00 [INF] Trying to execute: System/ChangeRole
+2024-11-03 23:47:42.410 +03:00 [INF] System/ChangeRole: executed successfully
+
+2024-11-03 23:47:58.089 +03:00 [INF] Trying to execute: System/ChangeRole
+2024-11-03 23:47:58.505 +03:00 [INF] System/ChangeRole: executed successfully
+
+2024-11-03 23:51:41.908 +03:00 [INF] Start installing Hangfire SQL objects...
+2024-11-03 23:51:42.458 +03:00 [INF] Hangfire SQL objects installed.
+2024-11-03 23:51:42.612 +03:00 [INF] Starting the application
+
+2024-11-03 23:51:42.848 +03:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: .@HotelBookingV2'
+2024-11-03 23:51:42.849 +03:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2024-11-03 23:51:42.850 +03:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2024-11-03 23:51:42.977 +03:00 [INF] Server desktop-7s4kel1:24968:c773efb0 successfully announced in 107.4881 ms
+2024-11-03 23:51:42.982 +03:00 [INF] Server desktop-7s4kel1:24968:c773efb0 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2024-11-03 23:51:43.004 +03:00 [INF] 3 servers were removed due to timeout
+2024-11-03 23:51:43.243 +03:00 [INF] Server desktop-7s4kel1:24968:c773efb0 all the dispatchers started
+2024-11-03 23:52:05.583 +03:00 [INF] Trying to execute: System/ChangeRole
+2024-11-03 23:52:14.912 +03:00 [INF] Trying to execute: System/ChangeRole
+2024-11-03 23:52:21.055 +03:00 [INF] Trying to execute: System/ChangeRole
+2024-11-03 23:54:36.128 +03:00 [INF] Trying to execute: System/ChangeRole
+2024-11-03 23:54:36.294 +03:00 [INF] System/ChangeRole: executed successfully
+
+2024-11-03 23:55:25.172 +03:00 [INF] Trying to execute: System/ChangeRole
+2024-11-03 23:55:25.208 +03:00 [INF] System/ChangeRole: executed successfully
+
+2024-11-03 23:55:28.272 +03:00 [INF] Trying to execute: System/ChangeRole
+2024-11-03 23:55:28.327 +03:00 [INF] System/ChangeRole: executed successfully
+
+2024-11-03 23:56:29.495 +03:00 [INF] Start installing Hangfire SQL objects...
+2024-11-03 23:56:29.997 +03:00 [INF] Hangfire SQL objects installed.
+2024-11-03 23:56:30.131 +03:00 [INF] Starting the application
+
+2024-11-03 23:56:30.351 +03:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: .@HotelBookingV2'
+2024-11-03 23:56:30.356 +03:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2024-11-03 23:56:30.357 +03:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2024-11-03 23:56:30.458 +03:00 [INF] Server desktop-7s4kel1:9112:b0c2ae67 successfully announced in 84.7316 ms
+2024-11-03 23:56:30.466 +03:00 [INF] Server desktop-7s4kel1:9112:b0c2ae67 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2024-11-03 23:56:30.500 +03:00 [INF] 1 servers were removed due to timeout
+2024-11-03 23:56:30.534 +03:00 [INF] Server desktop-7s4kel1:9112:b0c2ae67 all the dispatchers started
+2024-11-03 23:56:49.745 +03:00 [INF] Trying to execute: System/ChangeRole
+2024-11-03 23:56:57.572 +03:00 [INF] Trying to execute: System/ChangeRole
+2024-11-03 23:56:58.563 +03:00 [INF] System/ChangeRole: executed successfully
+
+2024-11-03 23:57:34.729 +03:00 [INF] Start installing Hangfire SQL objects...
+2024-11-03 23:57:35.217 +03:00 [INF] Hangfire SQL objects installed.
+2024-11-03 23:57:35.365 +03:00 [INF] Starting the application
+
+2024-11-03 23:57:35.570 +03:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: .@HotelBookingV2'
+2024-11-03 23:57:35.572 +03:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2024-11-03 23:57:35.573 +03:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2024-11-03 23:57:35.695 +03:00 [INF] Server desktop-7s4kel1:4888:ed0014ab successfully announced in 105.2152 ms
+2024-11-03 23:57:35.704 +03:00 [INF] Server desktop-7s4kel1:4888:ed0014ab is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2024-11-03 23:57:35.769 +03:00 [INF] Server desktop-7s4kel1:4888:ed0014ab all the dispatchers started
+2024-11-03 23:57:59.693 +03:00 [INF] Trying to execute: System/ChangeRole
+2024-11-03 23:58:05.469 +03:00 [INF] Trying to execute: System/ChangeRole
+2024-11-03 23:58:15.967 +03:00 [INF] Trying to execute: System/ChangeRole
+2024-11-03 23:58:21.785 +03:00 [INF] Trying to execute: System/ChangeRole
+2024-11-03 23:58:25.258 +03:00 [INF] Trying to execute: System/ChangeRole

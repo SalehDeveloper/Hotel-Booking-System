@@ -1,0 +1,114 @@
+2024-10-16 17:14:39.046 +03:00 [INF] Starting the application
+
+2024-10-16 17:14:50.977 +03:00 [INF] Trying to execute: Country/GetByName
+2024-10-16 17:14:54.926 +03:00 [INF] Country/GetByName: executed successfully
+
+2024-10-16 17:15:07.821 +03:00 [INF] Trying to execute: Country/GetByName
+2024-10-16 17:15:08.061 +03:00 [INF] Country/GetByName: executed successfully
+
+2024-10-16 17:16:14.223 +03:00 [INF] Starting the application
+
+2024-10-16 17:16:23.754 +03:00 [INF] Trying to execute: Country/GetByCode
+2024-10-16 17:16:27.787 +03:00 [INF] Country/GetByCode: executed successfully
+
+2024-10-16 17:16:31.170 +03:00 [INF] Trying to execute: Country/GetByCode
+2024-10-16 17:16:31.236 +03:00 [INF] Country/GetByCode: executed successfully
+
+2024-10-16 17:16:31.423 +03:00 [INF] Trying to execute: Country/GetByCode
+2024-10-16 17:16:31.555 +03:00 [INF] Country/GetByCode: executed successfully
+
+2024-10-16 17:16:36.796 +03:00 [INF] Trying to execute: Country/GetByCode
+2024-10-16 17:16:36.832 +03:00 [INF] Country/GetByCode: executed successfully
+
+2024-10-16 17:17:02.583 +03:00 [INF] Starting the application
+
+2024-10-16 17:17:11.151 +03:00 [INF] Trying to execute: Country/GetByCode
+2024-10-16 17:17:14.994 +03:00 [INF] Country/GetByCode: executed successfully
+
+2024-10-16 17:17:19.846 +03:00 [INF] Trying to execute: Country/GetByCode
+2024-10-16 17:17:19.911 +03:00 [INF] Country/GetByCode: executed successfully
+
+2024-10-16 17:17:25.382 +03:00 [INF] Trying to execute: Country/GetByCode
+2024-10-16 17:17:25.532 +03:00 [INF] Country/GetByCode: executed successfully
+
+2024-10-16 17:32:49.997 +03:00 [INF] Starting the application
+
+2024-10-16 17:32:59.669 +03:00 [INF] Trying to execute: Country/GetByCode
+2024-10-16 17:33:00.295 +03:00 [ERR] Failed To Execute:Country/GetByCode, 500 , Validation failed: The length of 'Code' must be 5 characters or fewer. You entered 11 characters.
+
+2024-10-16 17:39:12.815 +03:00 [INF] Starting the application
+
+2024-10-16 17:39:27.116 +03:00 [INF] Trying to execute: Country/Search
+2024-10-16 17:39:27.743 +03:00 [ERR] Failed To Execute:Country/Search, 500 , Validation failed: The length of 'keyword' must be 25 characters or fewer. You entered 80 characters.
+
+2024-10-16 17:58:19.413 +03:00 [INF] Starting the application
+
+2024-10-16 18:04:02.627 +03:00 [INF] Trying to execute: Country/AddNew
+2024-10-16 18:04:05.648 +03:00 [INF] Country/AddNew: executed successfully
+
+2024-10-16 18:11:12.041 +03:00 [INF] Starting the application
+
+2024-10-16 18:11:25.584 +03:00 [INF] Trying to execute: Country/AddNew
+2024-10-16 18:11:26.241 +03:00 [ERR] Failed To Execute:Country/AddNew, 500 , Validation failed: 'country Name' must not be empty.
+'country Code' must not be empty.
+
+2024-10-16 18:11:43.427 +03:00 [INF] Trying to execute: Country/AddNew
+2024-10-16 18:11:46.304 +03:00 [INF] Country/AddNew: executed successfully
+
+2024-10-16 18:30:45.049 +03:00 [INF] Starting the application
+
+2024-10-16 18:30:59.189 +03:00 [INF] Trying to execute: Country/AddNew
+2024-10-16 18:31:02.367 +03:00 [INF] Country/AddNew: executed successfully
+
+2024-10-16 18:31:18.534 +03:00 [INF] Trying to execute: Country/Delete
+2024-10-16 18:31:19.019 +03:00 [INF] Country/Delete: executed successfully
+
+2024-10-16 18:31:23.483 +03:00 [INF] Trying to execute: Country/Delete
+2024-10-16 18:31:23.523 +03:00 [INF] Country/Delete: executed successfully
+
+2024-10-16 18:32:47.014 +03:00 [INF] Starting the application
+
+2024-10-16 18:32:53.252 +03:00 [INF] Trying to execute: Country/Delete
+2024-10-16 18:32:56.521 +03:00 [INF] Country/Delete: executed successfully
+
+2024-10-16 18:33:15.156 +03:00 [INF] Trying to execute: Country/Delete
+2024-10-16 18:33:15.226 +03:00 [INF] Country/Delete: executed successfully
+
+2024-10-16 18:33:35.781 +03:00 [INF] Trying to execute: Country/Delete
+2024-10-16 18:33:35.815 +03:00 [INF] Country/Delete: executed successfully
+
+2024-10-16 23:49:20.577 +03:00 [INF] Starting the application
+
+2024-10-16 23:49:32.250 +03:00 [INF] Trying to execute: Country/GetAll
+2024-10-16 23:49:35.756 +03:00 [INF] Country/GetAll: executed successfully
+
+2024-10-16 23:49:56.582 +03:00 [INF] Trying to execute: Country/Update
+2024-10-16 23:49:57.009 +03:00 [INF] Country/Update: executed successfully
+
+2024-10-16 23:50:05.076 +03:00 [INF] Trying to execute: Country/Update
+2024-10-16 23:50:05.306 +03:00 [INF] Country/Update: executed successfully
+
+2024-10-16 23:50:19.187 +03:00 [INF] Trying to execute: Country/GetAll
+2024-10-16 23:50:19.210 +03:00 [INF] Country/GetAll: executed successfully
+
+2024-10-16 23:56:20.955 +03:00 [INF] Starting the application
+
+2024-10-16 23:56:50.109 +03:00 [INF] Trying to execute: Country/Update
+2024-10-16 23:56:53.331 +03:00 [INF] Country/Update: executed successfully
+
+2024-10-16 23:58:01.767 +03:00 [INF] Starting the application
+
+2024-10-16 23:58:10.187 +03:00 [INF] Trying to execute: Country/Update
+2024-10-16 23:58:10.796 +03:00 [ERR] Failed To Execute:Country/Update, 500 , Validation failed: 'Country Id' must be greater than '0'.
+The length of 'Country Code' must be 3 characters or fewer. You entered 6 characters.
+
+2024-10-16 23:58:32.530 +03:00 [INF] Trying to execute: Country/Update
+2024-10-16 23:58:32.666 +03:00 [ERR] Failed To Execute:Country/Update, 500 , Validation failed: 'Country Id' must be greater than '0'.
+
+2024-10-16 23:58:42.983 +03:00 [INF] Trying to execute: Country/Update
+2024-10-16 23:58:46.370 +03:00 [ERR] Failed To Execute:Country/Update, 500 , Missing type map configuration or unsupported mapping.
+
+Mapping types:
+UpdateCountryRequestDto -> Country
+HootelBooking.Application.Dtos.Country.Request.UpdateCountryRequestDto -> HootelBooking.Domain.Entities.Country
+

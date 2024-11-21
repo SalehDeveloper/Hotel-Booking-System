@@ -1,0 +1,351 @@
+2024-11-19 23:21:36.035 +03:00 [INF] Start installing Hangfire SQL objects...
+2024-11-19 23:21:37.230 +03:00 [INF] Hangfire SQL objects installed.
+2024-11-19 23:21:37.416 +03:00 [INF] Starting the application
+
+2024-11-19 23:21:37.722 +03:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: .@HotelBookingV2'
+2024-11-19 23:21:37.723 +03:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2024-11-19 23:21:37.723 +03:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2024-11-19 23:21:37.870 +03:00 [INF] Server desktop-7s4kel1:22008:dd2497ec successfully announced in 131.4008 ms
+2024-11-19 23:21:37.876 +03:00 [INF] Server desktop-7s4kel1:22008:dd2497ec is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2024-11-19 23:21:37.907 +03:00 [INF] 2 servers were removed due to timeout
+2024-11-19 23:21:37.944 +03:00 [INF] Server desktop-7s4kel1:22008:dd2497ec all the dispatchers started
+2024-11-19 23:24:33.174 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:24:33.810 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:24:33.845 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:24:33.847 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:24:33.847 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:24:33.886 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:24:33.888 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:24:33.897 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:24:36.055 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:24:36.126 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:24:36.918 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:24:36.997 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:24:39.105 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:24:39.126 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:24:41.138 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:24:41.156 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:24:43.164 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:24:43.191 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:24:45.209 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:24:45.228 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:24:46.236 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:24:46.276 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:24:46.293 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:24:46.321 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:24:48.406 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:24:48.424 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:24:50.438 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:24:50.460 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:24:52.622 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:24:52.658 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:24:55.620 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:24:55.638 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:24:58.617 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:24:58.643 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:25:00.658 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:25:00.688 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:25:02.707 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:25:02.733 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:25:04.741 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:25:04.759 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:25:06.770 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:25:06.782 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:25:08.794 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:25:08.807 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:25:10.823 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:25:10.839 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:25:13.622 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:25:13.632 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:25:16.612 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:25:16.620 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:25:19.622 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:25:19.771 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:25:22.615 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:25:22.636 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:25:25.611 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:25:25.643 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:25:28.611 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:25:28.625 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:25:31.622 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:25:31.643 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:25:34.623 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:25:34.642 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:25:37.619 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:25:37.640 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:25:40.617 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:25:40.651 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:25:43.616 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:25:43.652 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:25:46.621 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:25:46.642 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:25:49.611 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:25:49.633 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:25:52.625 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:25:52.653 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:25:55.622 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:25:55.639 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:25:58.621 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:25:58.646 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:26:01.624 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:26:01.647 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:26:04.626 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:26:04.649 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:26:07.624 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:26:07.643 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:26:10.667 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:26:10.700 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:26:13.613 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:26:13.642 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:26:16.624 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:26:16.643 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:26:19.622 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:26:19.645 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:26:22.618 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:26:22.640 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:26:25.612 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:26:25.629 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:26:28.625 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:26:28.652 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:26:31.620 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:26:31.646 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:26:34.618 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:26:34.644 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:26:37.620 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:26:37.637 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:26:40.622 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:26:40.650 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:26:43.621 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:26:43.645 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:26:46.612 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:26:46.647 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:26:49.616 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:26:49.638 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:26:52.623 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:26:52.641 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:26:55.621 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:26:55.646 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:26:58.623 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:26:58.664 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:27:01.625 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:27:01.653 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:27:04.621 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:27:04.642 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:27:07.624 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:27:07.656 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:27:10.626 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:27:10.652 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:27:13.612 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:27:13.640 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:27:16.624 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:27:16.645 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:27:19.618 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:27:19.635 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:27:22.626 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:27:22.641 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:27:25.613 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:27:25.652 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:27:28.615 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:27:28.640 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:27:31.628 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:27:31.670 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:27:34.617 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:27:34.643 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:27:37.622 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:27:37.645 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:27:40.611 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:27:40.634 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:27:43.627 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:27:43.646 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:27:46.620 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:27:46.642 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:27:49.619 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:27:49.640 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:27:52.624 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:27:52.652 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:27:55.624 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:27:55.646 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:27:58.624 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:27:58.655 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:28:01.623 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:28:01.639 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:28:04.619 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:28:04.641 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:28:07.626 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:28:07.649 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:28:10.627 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:28:10.666 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:28:13.625 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:28:13.662 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:28:16.628 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:28:16.662 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:28:19.620 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:28:19.638 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:28:22.623 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:28:22.645 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:28:25.619 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:28:25.655 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:28:28.635 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:28:28.780 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:28:31.611 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:28:31.632 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:28:34.611 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:28:34.639 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:28:37.619 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:28:37.645 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:28:40.622 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:28:40.651 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:28:43.620 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:28:43.642 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:28:46.616 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:28:46.642 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:28:49.616 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:28:49.641 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:28:52.619 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:28:52.651 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:28:55.619 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:28:55.648 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:28:58.625 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:28:58.658 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:29:01.614 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:29:01.646 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:29:04.615 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:29:04.640 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:29:07.617 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:29:07.635 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:29:10.618 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:29:10.644 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:29:13.615 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:29:13.647 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:29:16.621 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:29:16.644 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:29:19.619 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:29:19.636 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:29:22.618 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:29:22.639 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:29:25.619 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:29:25.637 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:29:28.628 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:29:28.650 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:29:31.611 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:29:31.628 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:29:33.640 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:29:33.660 +03:00 [INF] null/null: executed successfully
+
+2024-11-19 23:29:36.623 +03:00 [INF] Trying to execute: null/null
+2024-11-19 23:29:36.639 +03:00 [INF] null/null: executed successfully
+

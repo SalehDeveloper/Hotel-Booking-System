@@ -1,0 +1,400 @@
+2024-10-19 02:08:57.620 +03:00 [INF] Starting the application
+
+2024-10-19 02:09:14.317 +03:00 [INF] Trying to execute: RoomType/GetById
+2024-10-19 02:09:18.046 +03:00 [INF] RoomType/GetById: executed successfully
+
+2024-10-19 02:09:46.017 +03:00 [INF] Trying to execute: RoomType/GetAll
+2024-10-19 02:09:46.082 +03:00 [INF] RoomType/GetAll: executed successfully
+
+2024-10-19 02:10:06.782 +03:00 [INF] Trying to execute: RoomType/GetAllActive
+2024-10-19 02:10:06.922 +03:00 [INF] RoomType/GetAllActive: executed successfully
+
+2024-10-19 02:12:27.784 +03:00 [INF] Starting the application
+
+2024-10-19 02:12:34.598 +03:00 [INF] Trying to execute: Amenity/GetAll
+2024-10-19 02:12:37.634 +03:00 [INF] Amenity/GetAll: executed successfully
+
+2024-10-19 02:15:35.197 +03:00 [INF] Starting the application
+
+2024-10-19 02:15:46.379 +03:00 [INF] Trying to execute: RoomType/GetAll
+2024-10-19 02:15:49.330 +03:00 [INF] RoomType/GetAll: executed successfully
+
+2024-10-19 02:29:05.284 +03:00 [INF] Starting the application
+
+2024-10-19 02:29:23.817 +03:00 [INF] Trying to execute: RoomType/GetById
+2024-10-19 02:29:27.211 +03:00 [INF] RoomType/GetById: executed successfully
+
+2024-10-19 02:33:14.690 +03:00 [INF] Starting the application
+
+2024-10-19 02:33:29.458 +03:00 [INF] Trying to execute: RoomType/GetById
+2024-10-19 02:33:33.290 +03:00 [INF] RoomType/GetById: executed successfully
+
+2024-10-19 02:34:09.169 +03:00 [INF] Starting the application
+
+2024-10-19 02:34:20.329 +03:00 [INF] Trying to execute: RoomType/GetById
+2024-10-19 02:34:23.548 +03:00 [INF] RoomType/GetById: executed successfully
+
+2024-10-19 02:34:59.994 +03:00 [INF] Starting the application
+
+2024-10-19 02:36:16.544 +03:00 [INF] Trying to execute: RoomType/GetByType
+2024-10-19 02:36:19.866 +03:00 [INF] RoomType/GetByType: executed successfully
+
+2024-10-19 02:38:59.041 +03:00 [INF] Starting the application
+
+2024-10-19 02:39:11.394 +03:00 [INF] Trying to execute: RoomType/GetById
+2024-10-19 02:39:14.999 +03:00 [INF] RoomType/GetById: executed successfully
+
+2024-10-19 02:39:20.593 +03:00 [INF] Trying to execute: RoomType/GetById
+2024-10-19 02:39:20.804 +03:00 [INF] RoomType/GetById: executed successfully
+
+2024-10-19 02:39:33.987 +03:00 [INF] Trying to execute: RoomType/GetByType
+2024-10-19 02:39:34.343 +03:00 [ERR] Failed To Execute:RoomType/GetByType, 400 , The LINQ expression 'DbSet<RoomType>()
+    .Where(r => r.Type.ToString() == __type_0)' could not be translated. Additional information: Translation of method 'object.ToString' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+
+2024-10-19 02:44:02.588 +03:00 [INF] Starting the application
+
+2024-10-19 02:44:13.859 +03:00 [INF] Trying to execute: RoomType/GetById
+2024-10-19 02:44:17.251 +03:00 [INF] RoomType/GetById: executed successfully
+
+2024-10-19 02:44:27.811 +03:00 [INF] Trying to execute: RoomType/GetByType
+2024-10-19 02:44:27.886 +03:00 [INF] RoomType/GetByType: executed successfully
+
+2024-10-19 02:44:33.560 +03:00 [INF] Trying to execute: RoomType/GetByType
+2024-10-19 02:44:33.661 +03:00 [INF] RoomType/GetByType: executed successfully
+
+2024-10-19 02:44:39.247 +03:00 [INF] Trying to execute: RoomType/GetByType
+2024-10-19 02:44:39.254 +03:00 [INF] RoomType/GetByType: executed successfully
+
+2024-10-19 02:44:46.120 +03:00 [INF] Trying to execute: RoomType/GetAll
+2024-10-19 02:44:46.180 +03:00 [INF] RoomType/GetAll: executed successfully
+
+2024-10-19 02:44:56.918 +03:00 [INF] Trying to execute: RoomType/GetAllActive
+2024-10-19 02:44:56.961 +03:00 [INF] RoomType/GetAllActive: executed successfully
+
+2024-10-19 02:45:04.540 +03:00 [INF] Trying to execute: RoomType/GetAllInActive
+2024-10-19 02:45:04.582 +03:00 [INF] RoomType/GetAllInActive: executed successfully
+
+2024-10-19 02:47:17.888 +03:00 [INF] Starting the application
+
+2024-10-19 02:47:27.936 +03:00 [INF] Trying to execute: RoomType/GetAllInActive
+2024-10-19 02:47:41.509 +03:00 [INF] Starting the application
+
+2024-10-19 02:47:51.394 +03:00 [INF] Trying to execute: RoomType/GetAllInActive
+2024-10-19 02:47:54.433 +03:00 [INF] RoomType/GetAllInActive: executed successfully
+
+2024-10-19 02:48:07.484 +03:00 [INF] Trying to execute: Amenity/GetAll
+2024-10-19 02:48:07.609 +03:00 [INF] Amenity/GetAll: executed successfully
+
+2024-10-19 02:48:18.050 +03:00 [INF] Trying to execute: RoomType/GetAll
+2024-10-19 02:48:18.249 +03:00 [INF] RoomType/GetAll: executed successfully
+
+2024-10-19 02:48:33.983 +03:00 [INF] Trying to execute: Amenity/Delete
+2024-10-19 02:48:34.302 +03:00 [INF] Amenity/Delete: executed successfully
+
+2024-10-19 02:48:41.987 +03:00 [INF] Trying to execute: RoomType/GetAll
+2024-10-19 02:48:42.028 +03:00 [INF] RoomType/GetAll: executed successfully
+
+2024-10-19 02:49:06.689 +03:00 [INF] Trying to execute: RoomType/GetAll
+2024-10-19 02:49:06.706 +03:00 [INF] RoomType/GetAll: executed successfully
+
+2024-10-19 02:50:11.091 +03:00 [INF] Trying to execute: RoomType/Update
+2024-10-19 02:50:11.158 +03:00 [INF] RoomType/Update: executed successfully
+
+2024-10-19 02:50:30.358 +03:00 [INF] Trying to execute: RoomType/Update
+2024-10-19 02:50:30.691 +03:00 [INF] RoomType/Update: executed successfully
+
+2024-10-19 02:52:29.500 +03:00 [INF] Starting the application
+
+2024-10-19 02:52:42.167 +03:00 [INF] Trying to execute: RoomType/GetById
+2024-10-19 02:52:45.472 +03:00 [INF] RoomType/GetById: executed successfully
+
+2024-10-19 02:53:35.997 +03:00 [INF] Trying to execute: RoomType/GetAll
+2024-10-19 02:53:36.099 +03:00 [INF] RoomType/GetAll: executed successfully
+
+2024-10-19 02:53:52.941 +03:00 [INF] Trying to execute: RoomType/Update
+2024-10-19 15:04:15.121 +03:00 [INF] Starting the application
+
+2024-10-19 15:05:49.447 +03:00 [INF] Trying to execute: RoomType/GetAll
+2024-10-19 15:05:53.757 +03:00 [INF] RoomType/GetAll: executed successfully
+
+2024-10-19 15:06:15.718 +03:00 [INF] Trying to execute: RoomType/Update
+2024-10-19 15:06:16.208 +03:00 [INF] RoomType/Update: executed successfully
+
+2024-10-19 15:06:59.782 +03:00 [INF] Starting the application
+
+2024-10-19 15:07:11.734 +03:00 [INF] Starting the application
+
+2024-10-19 15:07:28.703 +03:00 [INF] Trying to execute: RoomType/GetAll
+2024-10-19 15:07:32.207 +03:00 [INF] RoomType/GetAll: executed successfully
+
+2024-10-19 15:08:01.882 +03:00 [INF] Trying to execute: RoomType/Update
+2024-10-19 15:08:02.459 +03:00 [ERR] Failed To Execute:RoomType/Update, 500 , Error mapping types.
+
+Mapping types:
+UpdateRoomTypeRequestDto -> RoomType
+HootelBooking.Application.Dtos.RoomType.Request.UpdateRoomTypeRequestDto -> HootelBooking.Domain.Entities.RoomType
+
+Type Map configuration:
+UpdateRoomTypeRequestDto -> RoomType
+HootelBooking.Application.Dtos.RoomType.Request.UpdateRoomTypeRequestDto -> HootelBooking.Domain.Entities.RoomType
+
+Destination Member:
+Type
+
+
+2024-10-19 15:10:24.233 +03:00 [INF] Starting the application
+
+2024-10-19 15:10:34.854 +03:00 [INF] Trying to execute: RoomType/GetAll
+2024-10-19 15:10:38.391 +03:00 [INF] RoomType/GetAll: executed successfully
+
+2024-10-19 15:11:09.435 +03:00 [INF] Trying to execute: RoomType/Update
+2024-10-19 15:11:10.060 +03:00 [ERR] Failed To Execute:RoomType/Update, 500 , Error mapping types.
+
+Mapping types:
+UpdateRoomTypeRequestDto -> RoomType
+HootelBooking.Application.Dtos.RoomType.Request.UpdateRoomTypeRequestDto -> HootelBooking.Domain.Entities.RoomType
+
+Type Map configuration:
+UpdateRoomTypeRequestDto -> RoomType
+HootelBooking.Application.Dtos.RoomType.Request.UpdateRoomTypeRequestDto -> HootelBooking.Domain.Entities.RoomType
+
+Destination Member:
+Type
+
+
+2024-10-19 15:41:49.735 +03:00 [INF] Starting the application
+
+2024-10-19 15:48:18.200 +03:00 [INF] Trying to execute: RoomType/GetAll
+2024-10-19 15:48:21.888 +03:00 [INF] RoomType/GetAll: executed successfully
+
+2024-10-19 15:48:36.318 +03:00 [INF] Trying to execute: RoomType/Update
+2024-10-19 15:48:36.626 +03:00 [INF] RoomType/Update: executed successfully
+
+2024-10-19 15:48:51.516 +03:00 [INF] Trying to execute: RoomType/Update
+2024-10-19 15:48:51.793 +03:00 [INF] RoomType/Update: executed successfully
+
+2024-10-19 15:49:16.902 +03:00 [INF] Trying to execute: RoomType/Update
+2024-10-19 15:49:16.932 +03:00 [INF] RoomType/Update: executed successfully
+
+2024-10-19 15:49:32.265 +03:00 [INF] Trying to execute: RoomType/Update
+2024-10-19 15:49:32.290 +03:00 [INF] RoomType/Update: executed successfully
+
+2024-10-19 15:49:46.960 +03:00 [INF] Trying to execute: RoomType/Update
+2024-10-19 15:49:46.999 +03:00 [INF] RoomType/Update: executed successfully
+
+2024-10-19 15:50:02.339 +03:00 [INF] Trying to execute: RoomType/Update
+2024-10-19 15:50:02.435 +03:00 [INF] RoomType/Update: executed successfully
+
+2024-10-19 15:50:34.020 +03:00 [INF] Trying to execute: Amenity/GetAll
+2024-10-19 15:50:34.075 +03:00 [INF] Amenity/GetAll: executed successfully
+
+2024-10-19 15:51:29.919 +03:00 [INF] Trying to execute: Amenity/Update
+2024-10-19 15:51:29.966 +03:00 [INF] Amenity/Update: executed successfully
+
+2024-10-19 15:52:08.780 +03:00 [INF] Trying to execute: Amenity/Update
+2024-10-19 15:52:08.809 +03:00 [INF] Amenity/Update: executed successfully
+
+2024-10-19 15:52:21.177 +03:00 [INF] Trying to execute: Amenity/Update
+2024-10-19 15:52:21.265 +03:00 [INF] Amenity/Update: executed successfully
+
+2024-10-19 15:52:25.354 +03:00 [INF] Trying to execute: RoomType/GetAll
+2024-10-19 15:52:25.372 +03:00 [INF] RoomType/GetAll: executed successfully
+
+2024-10-19 15:52:30.530 +03:00 [INF] Trying to execute: RoomType/Update
+2024-10-19 15:52:30.599 +03:00 [INF] RoomType/Update: executed successfully
+
+2024-10-19 15:57:02.816 +03:00 [INF] Starting the application
+
+2024-10-19 16:07:15.624 +03:00 [INF] Trying to execute: RoomType/Update
+2024-10-19 16:07:15.948 +03:00 [ERR] Failed To Execute:RoomType/Update, 500 , Validation failed: All Amenity IDs must be greater than 0 if provided.
+
+2024-10-19 16:08:27.643 +03:00 [INF] Starting the application
+
+2024-10-19 16:08:56.576 +03:00 [INF] Trying to execute: RoomType/Update
+2024-10-19 16:09:00.358 +03:00 [INF] RoomType/Update: executed successfully
+
+2024-10-19 16:09:20.878 +03:00 [INF] Trying to execute: RoomType/GetAll
+2024-10-19 16:09:21.247 +03:00 [INF] RoomType/GetAll: executed successfully
+
+2024-10-19 16:09:49.038 +03:00 [INF] Trying to execute: RoomType/Update
+2024-10-19 16:09:49.242 +03:00 [INF] RoomType/Update: executed successfully
+
+2024-10-19 16:10:02.241 +03:00 [INF] Trying to execute: RoomType/Update
+2024-10-19 16:10:02.274 +03:00 [INF] RoomType/Update: executed successfully
+
+2024-10-19 16:10:13.209 +03:00 [INF] Trying to execute: RoomType/Update
+2024-10-19 16:10:13.387 +03:00 [INF] RoomType/Update: executed successfully
+
+2024-10-19 19:06:21.045 +03:00 [INF] Starting the application
+
+2024-10-19 19:06:34.576 +03:00 [INF] Trying to execute: CustomRoomType/GetAll
+2024-10-19 19:06:37.161 +03:00 [ERR] Failed executing DbCommand (84ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Type]
+FROM [CustomRoomTypes] AS [c]
+2024-10-19 19:06:37.223 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'HootelBooking.Persistence.Data.AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'CustomRoomTypes'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:522ebdb0-9342-4a97-b93f-9529dc7182f5
+Error Number:208,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'CustomRoomTypes'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:522ebdb0-9342-4a97-b93f-9529dc7182f5
+Error Number:208,State:1,Class:16
+2024-10-19 19:06:37.488 +03:00 [ERR] Failed To Execute:CustomRoomType/GetAll, 500 , Invalid object name 'CustomRoomTypes'.
+
+2024-10-19 19:06:52.038 +03:00 [INF] Trying to execute: CustomRoomType/GetById
+2024-10-19 19:06:52.340 +03:00 [ERR] Failed executing DbCommand (49ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[Type]
+FROM [CustomRoomTypes] AS [c]
+WHERE [c].[Id] = @__p_0
+2024-10-19 19:06:52.344 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'HootelBooking.Persistence.Data.AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'CustomRoomTypes'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:522ebdb0-9342-4a97-b93f-9529dc7182f5
+Error Number:208,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'CustomRoomTypes'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:522ebdb0-9342-4a97-b93f-9529dc7182f5
+Error Number:208,State:1,Class:16
+2024-10-19 19:06:52.541 +03:00 [ERR] Failed To Execute:CustomRoomType/GetById, 500 , Invalid object name 'CustomRoomTypes'.
+
+2024-10-19 19:07:15.543 +03:00 [INF] Trying to execute: CustomRoomType/AddNew
+2024-10-19 19:09:18.865 +03:00 [INF] Starting the application
+
+2024-10-19 19:09:30.189 +03:00 [INF] Trying to execute: CustomRoomType/GetAll
+2024-10-19 19:09:32.464 +03:00 [ERR] Failed executing DbCommand (36ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Type]
+FROM [CustomRoomTypes] AS [c]
+2024-10-19 19:09:32.510 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'HootelBooking.Persistence.Data.AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'CustomRoomTypes'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:b8fd2c88-ecd2-40ee-9dfd-0c06b902ca04
+Error Number:208,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'CustomRoomTypes'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:b8fd2c88-ecd2-40ee-9dfd-0c06b902ca04
+Error Number:208,State:1,Class:16
+2024-10-19 19:09:32.745 +03:00 [ERR] Failed To Execute:CustomRoomType/GetAll, 500 , Invalid object name 'CustomRoomTypes'.
+
+2024-10-19 19:12:08.313 +03:00 [INF] Starting the application
+
+2024-10-19 19:12:18.791 +03:00 [INF] Trying to execute: CustomRoomType/GetAll
+2024-10-19 19:12:20.879 +03:00 [INF] CustomRoomType/GetAll: executed successfully
+
+2024-10-19 19:12:37.682 +03:00 [INF] Trying to execute: CustomRoomType/AddNew
+2024-10-19 19:13:35.931 +03:00 [INF] Starting the application
+
+2024-10-19 19:14:14.043 +03:00 [INF] Starting the application
+
+2024-10-19 19:14:31.567 +03:00 [INF] Trying to execute: CustomRoomType/AddNew
+2024-10-19 19:20:16.730 +03:00 [INF] Starting the application
+
+2024-10-19 19:20:31.925 +03:00 [INF] Trying to execute: CustomRoomType/AddNew
+2024-10-19 19:20:34.415 +03:00 [INF] CustomRoomType/AddNew: executed successfully
+
+2024-10-19 19:20:42.469 +03:00 [INF] Trying to execute: CustomRoomType/GetAll
+2024-10-19 19:20:42.787 +03:00 [INF] CustomRoomType/GetAll: executed successfully
+
+2024-10-19 19:20:51.406 +03:00 [INF] Trying to execute: CustomRoomType/GetByType
+2024-10-19 19:20:51.572 +03:00 [INF] CustomRoomType/GetByType: executed successfully
+
+2024-10-19 19:20:54.075 +03:00 [INF] Trying to execute: CustomRoomType/GetByType
+2024-10-19 19:20:54.085 +03:00 [INF] CustomRoomType/GetByType: executed successfully
+
+2024-10-19 19:21:03.730 +03:00 [INF] Trying to execute: CustomRoomType/GetById
+2024-10-19 19:21:03.793 +03:00 [INF] CustomRoomType/GetById: executed successfully
+
+2024-10-19 19:21:05.904 +03:00 [INF] Trying to execute: CustomRoomType/GetById
+2024-10-19 19:21:05.931 +03:00 [INF] CustomRoomType/GetById: executed successfully
+
+2024-10-19 19:21:23.938 +03:00 [INF] Trying to execute: CustomRoomType/Update
+2024-10-19 19:21:23.980 +03:00 [INF] CustomRoomType/Update: executed successfully
+
+2024-10-19 19:21:29.097 +03:00 [INF] Trying to execute: CustomRoomType/GetAll
+2024-10-19 19:21:29.104 +03:00 [INF] CustomRoomType/GetAll: executed successfully
+
+2024-10-19 19:21:39.673 +03:00 [INF] Trying to execute: CustomRoomType/Update
+2024-10-19 19:21:40.072 +03:00 [ERR] Failed To Execute:CustomRoomType/Update, 500 , The database operation was expected to affect 1 row(s), but actually affected 0 row(s); data may have been modified or deleted since entities were loaded. See https://go.microsoft.com/fwlink/?LinkId=527962 for information on understanding and handling optimistic concurrency exceptions.
+
+2024-10-19 19:21:51.202 +03:00 [INF] Trying to execute: CustomRoomType/Update
+2024-10-19 19:21:51.403 +03:00 [ERR] Failed To Execute:CustomRoomType/Update, 500 , The database operation was expected to affect 1 row(s), but actually affected 0 row(s); data may have been modified or deleted since entities were loaded. See https://go.microsoft.com/fwlink/?LinkId=527962 for information on understanding and handling optimistic concurrency exceptions.
+
+2024-10-19 19:22:39.029 +03:00 [INF] Starting the application
+
+2024-10-19 19:24:42.578 +03:00 [INF] Starting the application
+
+2024-10-19 19:24:54.992 +03:00 [INF] Trying to execute: CustomRoomType/GetById
+2024-10-19 19:24:57.392 +03:00 [INF] CustomRoomType/GetById: executed successfully
+
+2024-10-19 19:25:09.032 +03:00 [INF] Trying to execute: CustomRoomType/Update
+2024-10-19 19:25:09.119 +03:00 [INF] CustomRoomType/Update: executed successfully
+
+2024-10-19 19:25:29.022 +03:00 [INF] Trying to execute: CustomRoomType/Update
+2024-10-19 19:25:29.137 +03:00 [INF] CustomRoomType/Update: executed successfully
+

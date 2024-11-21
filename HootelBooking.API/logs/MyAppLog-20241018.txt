@@ -1,0 +1,163 @@
+2024-10-18 12:46:47.888 +03:00 [INF] Starting the application
+
+2024-10-18 12:47:24.373 +03:00 [INF] Trying to execute: Amenity/GetAll
+2024-10-18 12:47:27.186 +03:00 [ERR] Failed executing DbCommand (79ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[ID], [a].[CreatedAt], [a].[CreatedBy], [a].[Description], [a].[ModifiedBy], [a].[ModifiedDate], [a].[Name], [a].[isActive]
+FROM [Amenities] AS [a]
+2024-10-18 12:47:27.247 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'HootelBooking.Persistence.Data.AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'isActive'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:8bb877a7-21cf-4673-bd41-dba9865523d3
+Error Number:207,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'isActive'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:8bb877a7-21cf-4673-bd41-dba9865523d3
+Error Number:207,State:1,Class:16
+2024-10-18 12:47:27.669 +03:00 [ERR] Failed To Execute:Amenity/GetAll, 500 , Invalid column name 'isActive'.
+
+2024-10-18 12:49:13.005 +03:00 [INF] Starting the application
+
+2024-10-18 12:49:30.237 +03:00 [INF] Trying to execute: Amenity/GetAll
+2024-10-18 12:49:33.195 +03:00 [ERR] Failed executing DbCommand (50ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[ID], [a].[CreatedAt], [a].[CreatedBy], [a].[Description], [a].[IsActive], [a].[ModifiedBy], [a].[ModifiedDate], [a].[Name]
+FROM [Amenities] AS [a]
+2024-10-18 12:49:33.228 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'HootelBooking.Persistence.Data.AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'IsActive'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:520b3ce0-268f-4828-9f8d-5aa536a2a136
+Error Number:207,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'IsActive'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:520b3ce0-268f-4828-9f8d-5aa536a2a136
+Error Number:207,State:1,Class:16
+2024-10-18 12:49:33.570 +03:00 [ERR] Failed To Execute:Amenity/GetAll, 500 , Invalid column name 'IsActive'.
+
+2024-10-18 13:04:26.765 +03:00 [INF] Starting the application
+
+2024-10-18 13:04:36.227 +03:00 [INF] Trying to execute: Amenity/GetAll
+2024-10-18 13:04:39.471 +03:00 [INF] Amenity/GetAll: executed successfully
+
+2024-10-18 13:06:06.508 +03:00 [INF] Starting the application
+
+2024-10-18 13:06:15.334 +03:00 [INF] Trying to execute: Amenity/GetAll
+2024-10-18 13:06:18.435 +03:00 [INF] Amenity/GetAll: executed successfully
+
+2024-10-18 13:06:32.619 +03:00 [INF] Trying to execute: Amenity/GetById
+2024-10-18 13:06:32.969 +03:00 [INF] Amenity/GetById: executed successfully
+
+2024-10-18 13:06:39.569 +03:00 [INF] Trying to execute: Amenity/GetById
+2024-10-18 13:06:39.594 +03:00 [INF] Amenity/GetById: executed successfully
+
+2024-10-18 13:06:44.574 +03:00 [INF] Trying to execute: Amenity/GetById
+2024-10-18 13:06:44.594 +03:00 [INF] Amenity/GetById: executed successfully
+
+2024-10-18 13:06:56.181 +03:00 [INF] Trying to execute: Amenity/GetAllActive
+2024-10-18 13:06:56.233 +03:00 [INF] Amenity/GetAllActive: executed successfully
+
+2024-10-18 13:07:03.480 +03:00 [INF] Trying to execute: Amenity/GetAllInActive
+2024-10-18 13:07:03.528 +03:00 [INF] Amenity/GetAllInActive: executed successfully
+
+2024-10-18 13:07:20.671 +03:00 [INF] Trying to execute: Amenity/Delete
+2024-10-18 13:07:20.877 +03:00 [INF] Amenity/Delete: executed successfully
+
+2024-10-18 13:07:31.378 +03:00 [INF] Trying to execute: Amenity/Delete
+2024-10-18 13:07:31.391 +03:00 [INF] Amenity/Delete: executed successfully
+
+2024-10-18 13:08:11.731 +03:00 [INF] Trying to execute: Amenity/Delete
+2024-10-18 13:08:11.742 +03:00 [INF] Amenity/Delete: executed successfully
+
+2024-10-18 13:08:30.779 +03:00 [INF] Trying to execute: Amenity/Update
+2024-10-18 13:08:31.020 +03:00 [ERR] Failed To Execute:Amenity/Update, 500 , Validation failed: 'Amenity ID' must be greater than '0'.
+
+2024-10-18 13:08:58.530 +03:00 [INF] Trying to execute: Amenity/Delete
+2024-10-18 13:08:58.539 +03:00 [INF] Amenity/Delete: executed successfully
+
+2024-10-18 13:09:43.111 +03:00 [INF] Trying to execute: Amenity/Update
+2024-10-18 13:09:43.389 +03:00 [ERR] Failed To Execute:Amenity/Update, 500 , Missing type map configuration or unsupported mapping.
+
+Mapping types:
+UpdateAmenityRequestDto -> Amenity
+HootelBooking.Application.Dtos.Amenity.Request.UpdateAmenityRequestDto -> HootelBooking.Domain.Entities.Amenity
+
+2024-10-18 13:10:43.236 +03:00 [INF] Starting the application
+
+2024-10-18 13:10:59.051 +03:00 [INF] Trying to execute: Amenity/GetByName
+2024-10-18 13:11:02.191 +03:00 [INF] Amenity/GetByName: executed successfully
+
+2024-10-18 13:11:09.348 +03:00 [INF] Trying to execute: Amenity/GetByName
+2024-10-18 13:11:09.378 +03:00 [INF] Amenity/GetByName: executed successfully
+
+2024-10-18 13:11:13.802 +03:00 [INF] Trying to execute: Amenity/GetAll
+2024-10-18 13:11:14.008 +03:00 [INF] Amenity/GetAll: executed successfully
+
+2024-10-18 13:11:26.048 +03:00 [INF] Trying to execute: Amenity/GetByName
+2024-10-18 13:11:26.068 +03:00 [INF] Amenity/GetByName: executed successfully
+
+2024-10-18 13:11:36.223 +03:00 [INF] Trying to execute: Amenity/GetById
+2024-10-18 13:11:36.300 +03:00 [INF] Amenity/GetById: executed successfully
+
+2024-10-18 13:11:46.955 +03:00 [INF] Trying to execute: Amenity/GetAllActive
+2024-10-18 13:11:46.979 +03:00 [INF] Amenity/GetAllActive: executed successfully
+
+2024-10-18 13:11:51.865 +03:00 [INF] Trying to execute: Amenity/GetAllInActive
+2024-10-18 13:11:51.892 +03:00 [INF] Amenity/GetAllInActive: executed successfully
+
+2024-10-18 13:12:39.590 +03:00 [INF] Trying to execute: Amenity/Update
+2024-10-18 13:12:39.881 +03:00 [INF] Amenity/Update: executed successfully
+
+2024-10-18 13:12:49.996 +03:00 [INF] Trying to execute: Amenity/GetAllInActive
+2024-10-18 13:12:50.013 +03:00 [INF] Amenity/GetAllInActive: executed successfully
+
+2024-10-18 13:12:50.227 +03:00 [INF] Trying to execute: Amenity/GetAllInActive
+2024-10-18 13:12:50.257 +03:00 [INF] Amenity/GetAllInActive: executed successfully
+
+2024-10-18 13:12:55.047 +03:00 [INF] Trying to execute: Amenity/GetAll
+2024-10-18 13:12:55.058 +03:00 [INF] Amenity/GetAll: executed successfully
+
+2024-10-18 13:14:01.768 +03:00 [INF] Trying to execute: Amenity/AddNew
+2024-10-18 13:14:01.927 +03:00 [INF] Amenity/AddNew: executed successfully
+

@@ -1,0 +1,14 @@
+D:\PROJECTS\Web_API\HotelBookingV2\HootelBooking.Domain\bin\Debug\net8.0\HootelBooking.Domain.deps.json
+D:\PROJECTS\Web_API\HotelBookingV2\HootelBooking.Domain\bin\Debug\net8.0\HootelBooking.Domain.runtimeconfig.json
+D:\PROJECTS\Web_API\HotelBookingV2\HootelBooking.Domain\bin\Debug\net8.0\HootelBooking.Domain.dll
+D:\PROJECTS\Web_API\HotelBookingV2\HootelBooking.Domain\bin\Debug\net8.0\HootelBooking.Domain.pdb
+D:\PROJECTS\Web_API\HotelBookingV2\HootelBooking.Domain\obj\Debug\net8.0\HootelBooking.Domain.csproj.AssemblyReference.cache
+D:\PROJECTS\Web_API\HotelBookingV2\HootelBooking.Domain\obj\Debug\net8.0\HootelBooking.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\PROJECTS\Web_API\HotelBookingV2\HootelBooking.Domain\obj\Debug\net8.0\HootelBooking.Domain.AssemblyInfoInputs.cache
+D:\PROJECTS\Web_API\HotelBookingV2\HootelBooking.Domain\obj\Debug\net8.0\HootelBooking.Domain.AssemblyInfo.cs
+D:\PROJECTS\Web_API\HotelBookingV2\HootelBooking.Domain\obj\Debug\net8.0\HootelBooking.Domain.csproj.CoreCompileInputs.cache
+D:\PROJECTS\Web_API\HotelBookingV2\HootelBooking.Domain\obj\Debug\net8.0\HootelBooking.Domain.dll
+D:\PROJECTS\Web_API\HotelBookingV2\HootelBooking.Domain\obj\Debug\net8.0\refint\HootelBooking.Domain.dll
+D:\PROJECTS\Web_API\HotelBookingV2\HootelBooking.Domain\obj\Debug\net8.0\HootelBooking.Domain.pdb
+D:\PROJECTS\Web_API\HotelBookingV2\HootelBooking.Domain\obj\Debug\net8.0\HootelBooking.Domain.genruntimeconfig.cache
+D:\PROJECTS\Web_API\HotelBookingV2\HootelBooking.Domain\obj\Debug\net8.0\ref\HootelBooking.Domain.dll

@@ -1,0 +1,41 @@
+2024-11-09 23:45:55.273 +03:00 [INF] Start installing Hangfire SQL objects...
+2024-11-09 23:45:55.982 +03:00 [INF] Hangfire SQL objects installed.
+2024-11-09 23:45:56.182 +03:00 [INF] Starting the application
+
+2024-11-09 23:45:56.572 +03:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: .@HotelBookingV2'
+2024-11-09 23:45:56.574 +03:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2024-11-09 23:45:56.575 +03:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2024-11-09 23:45:56.862 +03:00 [INF] Server desktop-7s4kel1:11224:0d8019de successfully announced in 179.4675 ms
+2024-11-09 23:45:56.880 +03:00 [INF] Server desktop-7s4kel1:11224:0d8019de is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2024-11-09 23:45:56.911 +03:00 [INF] 2 servers were removed due to timeout
+2024-11-09 23:45:57.166 +03:00 [INF] Server desktop-7s4kel1:11224:0d8019de all the dispatchers started
+2024-11-09 23:46:44.236 +03:00 [INF] Start installing Hangfire SQL objects...
+2024-11-09 23:46:44.883 +03:00 [INF] Hangfire SQL objects installed.
+2024-11-09 23:46:45.070 +03:00 [INF] Starting the application
+
+2024-11-09 23:46:45.365 +03:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: .@HotelBookingV2'
+2024-11-09 23:46:45.366 +03:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2024-11-09 23:46:45.367 +03:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2024-11-09 23:46:45.507 +03:00 [INF] Server desktop-7s4kel1:16296:83a98022 successfully announced in 117.8406 ms
+2024-11-09 23:46:45.513 +03:00 [INF] Server desktop-7s4kel1:16296:83a98022 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2024-11-09 23:46:45.577 +03:00 [INF] Server desktop-7s4kel1:16296:83a98022 all the dispatchers started
+2024-11-09 23:47:33.012 +03:00 [INF] Trying to execute: Auth/Login
+2024-11-09 23:47:34.382 +03:00 [INF] Auth/Login: executed successfully
+
+2024-11-09 23:47:55.632 +03:00 [INF] Trying to execute: Dashboard/GetById
+2024-11-09 23:47:56.055 +03:00 [INF] Dashboard/GetById: executed successfully
+
+2024-11-09 23:48:02.799 +03:00 [INF] Trying to execute: Dashboard/GetById
+2024-11-09 23:48:02.850 +03:00 [INF] Dashboard/GetById: executed successfully
+
+2024-11-09 23:48:30.435 +03:00 [INF] Trying to execute: Image/GetImage
+2024-11-09 23:48:30.496 +03:00 [INF] Image/GetImage: executed successfully
+

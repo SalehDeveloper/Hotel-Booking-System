@@ -1,0 +1,108 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\PROJECTS\\Web_API\\HotelBookingV2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D7ADCD4B-3685-4E16-8E48-CC9FB60C964E}|HootelBooking.API\\HootelBooking.API.csproj|d:\\projects\\web_api\\hotelbookingv2\\hootelbooking.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D7ADCD4B-3685-4E16-8E48-CC9FB60C964E}|HootelBooking.API\\HootelBooking.API.csproj|solutionrelative:hootelbooking.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11C8D1F3-B129-4B93-8255-0150B19B1905}|HootelBooking.Application\\HootelBooking.Application.csproj|d:\\projects\\web_api\\hotelbookingv2\\hootelbooking.application\\features\\auth\\commands\\login\\logincommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11C8D1F3-B129-4B93-8255-0150B19B1905}|HootelBooking.Application\\HootelBooking.Application.csproj|solutionrelative:hootelbooking.application\\features\\auth\\commands\\login\\logincommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11C8D1F3-B129-4B93-8255-0150B19B1905}|HootelBooking.Application\\HootelBooking.Application.csproj|d:\\projects\\web_api\\hotelbookingv2\\hootelbooking.application\\features\\auth\\commands\\register\\registercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11C8D1F3-B129-4B93-8255-0150B19B1905}|HootelBooking.Application\\HootelBooking.Application.csproj|solutionrelative:hootelbooking.application\\features\\auth\\commands\\register\\registercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7ADCD4B-3685-4E16-8E48-CC9FB60C964E}|HootelBooking.API\\HootelBooking.API.csproj|d:\\projects\\web_api\\hotelbookingv2\\hootelbooking.api\\middlewares\\customauthorizationmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7ADCD4B-3685-4E16-8E48-CC9FB60C964E}|HootelBooking.API\\HootelBooking.API.csproj|solutionrelative:hootelbooking.api\\middlewares\\customauthorizationmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\PROJECTS\\Web_API\\HotelBookingV2\\HootelBooking.API\\appsettings.json",
+              "RelativeDocumentMoniker": "HootelBooking.API\\appsettings.json",
+              "ToolTip": "D:\\PROJECTS\\Web_API\\HotelBookingV2\\HootelBooking.API\\appsettings.json",
+              "RelativeToolTip": "HootelBooking.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-20T23:16:23.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginCommandHandler.cs",
+              "DocumentMoniker": "D:\\PROJECTS\\Web_API\\HotelBookingV2\\HootelBooking.Application\\Features\\Auth\\Commands\\Login\\LoginCommandHandler.cs",
+              "RelativeDocumentMoniker": "HootelBooking.Application\\Features\\Auth\\Commands\\Login\\LoginCommandHandler.cs",
+              "ToolTip": "D:\\PROJECTS\\Web_API\\HotelBookingV2\\HootelBooking.Application\\Features\\Auth\\Commands\\Login\\LoginCommandHandler.cs",
+              "RelativeToolTip": "HootelBooking.Application\\Features\\Auth\\Commands\\Login\\LoginCommandHandler.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAuwFUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T23:12:31.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RegisterCommandHandler.cs",
+              "DocumentMoniker": "D:\\PROJECTS\\Web_API\\HotelBookingV2\\HootelBooking.Application\\Features\\Auth\\Commands\\Register\\RegisterCommandHandler.cs",
+              "RelativeDocumentMoniker": "HootelBooking.Application\\Features\\Auth\\Commands\\Register\\RegisterCommandHandler.cs",
+              "ToolTip": "D:\\PROJECTS\\Web_API\\HotelBookingV2\\HootelBooking.Application\\Features\\Auth\\Commands\\Register\\RegisterCommandHandler.cs",
+              "RelativeToolTip": "HootelBooking.Application\\Features\\Auth\\Commands\\Register\\RegisterCommandHandler.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAuwGkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T23:12:20.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustomAuthorizationMiddleware.cs",
+              "DocumentMoniker": "D:\\PROJECTS\\Web_API\\HotelBookingV2\\HootelBooking.API\\Middlewares\\CustomAuthorizationMiddleware.cs",
+              "RelativeDocumentMoniker": "HootelBooking.API\\Middlewares\\CustomAuthorizationMiddleware.cs",
+              "ToolTip": "D:\\PROJECTS\\Web_API\\HotelBookingV2\\HootelBooking.API\\Middlewares\\CustomAuthorizationMiddleware.cs",
+              "RelativeToolTip": "HootelBooking.API\\Middlewares\\CustomAuthorizationMiddleware.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAYwHMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T23:10:06.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

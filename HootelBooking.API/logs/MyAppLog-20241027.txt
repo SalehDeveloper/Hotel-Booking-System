@@ -1,0 +1,450 @@
+2024-10-27 16:34:01.169 +03:00 [INF] Starting the application
+
+2024-10-27 16:35:28.171 +03:00 [INF] Trying to execute: Auth/Register
+2024-10-27 16:35:31.119 +03:00 [INF] Auth/Register: executed successfully
+
+2024-10-27 16:35:43.152 +03:00 [INF] Trying to execute: Auth/Register
+2024-10-27 16:35:43.262 +03:00 [INF] Auth/Register: executed successfully
+
+2024-10-27 16:35:51.388 +03:00 [INF] Trying to execute: Auth/Register
+2024-10-27 16:35:51.464 +03:00 [INF] Auth/Register: executed successfully
+
+2024-10-27 16:36:18.359 +03:00 [INF] Trying to execute: Country/GetAllStatesInByName
+2024-10-27 16:36:18.565 +03:00 [INF] Country/GetAllStatesInByName: executed successfully
+
+2024-10-27 16:47:07.194 +03:00 [INF] Starting the application
+
+2024-10-27 16:47:53.585 +03:00 [INF] Trying to execute: Auth/Register
+2024-10-27 16:47:54.038 +03:00 [ERR] Failed To Execute:Auth/Register, 500 , Validation failed: Invalid bed type.
+
+2024-10-27 16:48:24.175 +03:00 [INF] Trying to execute: Auth/Register
+2024-10-27 16:48:26.658 +03:00 [INF] Auth/Register: executed successfully
+
+2024-10-27 16:48:35.375 +03:00 [INF] Trying to execute: Auth/Register
+2024-10-27 16:48:35.814 +03:00 [ERR] Failed executing DbCommand (48ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (DbType = Boolean), @p3='?' (Size = 4000), @p4='?' (DbType = Int32), @p5='?' (Size = 4000), @p6='?' (DbType = DateTime2), @p7='?' (DbType = Int32), @p8='?' (DbType = DateTime2), @p9='?' (Size = 4000), @p10='?' (Size = 256), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (DbType = Boolean), @p14='?' (DbType = DateTime2), @p15='?' (DbType = Boolean), @p16='?' (DbType = DateTimeOffset), @p17='?' (Size = 4000), @p18='?' (DbType = DateTime2), @p19='?' (Size = 256), @p20='?' (Size = 256), @p21='?' (Size = 4000), @p22='?' (Size = 4000), @p23='?' (DbType = Boolean), @p24='?' (Size = 4000), @p25='?' (DbType = DateTime2), @p26='?' (Size = 4000), @p27='?' (DbType = Int32), @p28='?' (DbType = Boolean), @p29='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Countries] ([Id], [Code], [IsActive], [Name])
+VALUES (@p0, @p1, @p2, @p3);
+INSERT INTO [Users] ([AccessFailedCount], [ConcurrencyStamp], [ConfirmationCodeExpiry], [CountryID], [CreatedAt], [CreatedBy], [Email], [EmailConfirmationCode], [EmailConfirmed], [IsActive], [LastLogin], [LockoutEnabled], [LockoutEnd], [ModifiedBy], [ModifiedDate], [NormalizedEmail], [NormalizedUserName], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [ResetPasswordCode], [ResetPasswordCodeExpiry], [SecurityStamp], [StateID], [TwoFactorEnabled], [UserName])
+OUTPUT INSERTED.[Id]
+VALUES (@p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20, @p21, @p22, @p23, @p24, @p25, @p26, @p27, @p28, @p29);
+2024-10-27 16:48:35.847 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'HootelBooking.Persistence.Data.AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'Countries' when IDENTITY_INSERT is set to OFF.
+Cannot insert the value NULL into column 'CreatedBy', table 'HotelBookingV2.dbo.Users'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:93a311bf-0085-490b-b40b-0ea729d300ad
+Error Number:544,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'Countries' when IDENTITY_INSERT is set to OFF.
+Cannot insert the value NULL into column 'CreatedBy', table 'HotelBookingV2.dbo.Users'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:93a311bf-0085-490b-b40b-0ea729d300ad
+Error Number:544,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2024-10-27 16:48:36.095 +03:00 [ERR] Failed To Execute:Auth/Register, 500 , An error occurred while saving the entity changes. See the inner exception for details.
+
+2024-10-27 16:50:09.042 +03:00 [INF] Starting the application
+
+2024-10-27 16:50:53.355 +03:00 [INF] Trying to execute: Auth/Register
+2024-10-27 16:50:55.086 +03:00 [INF] Auth/Register: executed successfully
+
+2024-10-27 16:51:01.020 +03:00 [INF] Trying to execute: Auth/Register
+2024-10-27 16:51:01.278 +03:00 [ERR] Failed executing DbCommand (10ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (DbType = Boolean), @p3='?' (Size = 4000), @p4='?' (DbType = Int32), @p5='?' (Size = 4000), @p6='?' (DbType = DateTime2), @p7='?' (DbType = Int32), @p8='?' (DbType = DateTime2), @p9='?' (Size = 4000), @p10='?' (Size = 256), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (DbType = Boolean), @p14='?' (DbType = DateTime2), @p15='?' (DbType = Boolean), @p16='?' (DbType = DateTimeOffset), @p17='?' (Size = 4000), @p18='?' (DbType = DateTime2), @p19='?' (Size = 256), @p20='?' (Size = 256), @p21='?' (Size = 4000), @p22='?' (Size = 4000), @p23='?' (DbType = Boolean), @p24='?' (Size = 4000), @p25='?' (DbType = DateTime2), @p26='?' (Size = 4000), @p27='?' (DbType = Int32), @p28='?' (DbType = Boolean), @p29='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Countries] ([Id], [Code], [IsActive], [Name])
+VALUES (@p0, @p1, @p2, @p3);
+INSERT INTO [Users] ([AccessFailedCount], [ConcurrencyStamp], [ConfirmationCodeExpiry], [CountryID], [CreatedAt], [CreatedBy], [Email], [EmailConfirmationCode], [EmailConfirmed], [IsActive], [LastLogin], [LockoutEnabled], [LockoutEnd], [ModifiedBy], [ModifiedDate], [NormalizedEmail], [NormalizedUserName], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [ResetPasswordCode], [ResetPasswordCodeExpiry], [SecurityStamp], [StateID], [TwoFactorEnabled], [UserName])
+OUTPUT INSERTED.[Id]
+VALUES (@p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20, @p21, @p22, @p23, @p24, @p25, @p26, @p27, @p28, @p29);
+2024-10-27 16:51:01.305 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'HootelBooking.Persistence.Data.AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'Countries' when IDENTITY_INSERT is set to OFF.
+Cannot insert the value NULL into column 'CreatedBy', table 'HotelBookingV2.dbo.Users'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:6461083c-85fb-4cca-8cb4-f04d3b2c0859
+Error Number:544,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'Countries' when IDENTITY_INSERT is set to OFF.
+Cannot insert the value NULL into column 'CreatedBy', table 'HotelBookingV2.dbo.Users'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:6461083c-85fb-4cca-8cb4-f04d3b2c0859
+Error Number:544,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2024-10-27 16:51:01.621 +03:00 [ERR] Failed To Execute:Auth/Register, 500 , An error occurred while saving the entity changes. See the inner exception for details.
+
+2024-10-27 16:51:50.532 +03:00 [INF] Starting the application
+
+2024-10-27 16:52:52.470 +03:00 [INF] Trying to execute: Auth/Register
+2024-10-27 16:52:55.552 +03:00 [INF] Auth/Register: executed successfully
+
+2024-10-27 16:53:05.294 +03:00 [INF] Trying to execute: Auth/Register
+2024-10-27 16:53:05.783 +03:00 [ERR] Failed executing DbCommand (20ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (DbType = Boolean), @p3='?' (Size = 4000), @p4='?' (DbType = Int32), @p5='?' (Size = 4000), @p6='?' (DbType = DateTime2), @p7='?' (DbType = Int32), @p8='?' (DbType = DateTime2), @p9='?' (Size = 4000), @p10='?' (Size = 256), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (DbType = Boolean), @p14='?' (DbType = DateTime2), @p15='?' (DbType = Boolean), @p16='?' (DbType = DateTimeOffset), @p17='?' (Size = 4000), @p18='?' (DbType = DateTime2), @p19='?' (Size = 256), @p20='?' (Size = 256), @p21='?' (Size = 4000), @p22='?' (Size = 4000), @p23='?' (DbType = Boolean), @p24='?' (Size = 4000), @p25='?' (DbType = DateTime2), @p26='?' (Size = 4000), @p27='?' (DbType = Int32), @p28='?' (DbType = Boolean), @p29='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Countries] ([Id], [Code], [IsActive], [Name])
+VALUES (@p0, @p1, @p2, @p3);
+INSERT INTO [Users] ([AccessFailedCount], [ConcurrencyStamp], [ConfirmationCodeExpiry], [CountryID], [CreatedAt], [CreatedBy], [Email], [EmailConfirmationCode], [EmailConfirmed], [IsActive], [LastLogin], [LockoutEnabled], [LockoutEnd], [ModifiedBy], [ModifiedDate], [NormalizedEmail], [NormalizedUserName], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [ResetPasswordCode], [ResetPasswordCodeExpiry], [SecurityStamp], [StateID], [TwoFactorEnabled], [UserName])
+OUTPUT INSERTED.[Id]
+VALUES (@p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20, @p21, @p22, @p23, @p24, @p25, @p26, @p27, @p28, @p29);
+2024-10-27 16:53:05.817 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'HootelBooking.Persistence.Data.AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'Countries' when IDENTITY_INSERT is set to OFF.
+Cannot insert the value NULL into column 'LastLogin', table 'HotelBookingV2.dbo.Users'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:a21b754b-e404-4347-bd44-c88207e71b60
+Error Number:544,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'Countries' when IDENTITY_INSERT is set to OFF.
+Cannot insert the value NULL into column 'LastLogin', table 'HotelBookingV2.dbo.Users'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:a21b754b-e404-4347-bd44-c88207e71b60
+Error Number:544,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2024-10-27 16:53:06.163 +03:00 [ERR] Failed To Execute:Auth/Register, 500 , An error occurred while saving the entity changes. See the inner exception for details.
+
+2024-10-27 16:55:15.126 +03:00 [INF] Trying to execute: Auth/Register
+2024-10-27 16:55:15.194 +03:00 [ERR] Failed executing DbCommand (10ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (DbType = Boolean), @p3='?' (Size = 4000), @p4='?' (DbType = Int32), @p5='?' (Size = 4000), @p6='?' (DbType = DateTime2), @p7='?' (DbType = Int32), @p8='?' (DbType = DateTime2), @p9='?' (Size = 4000), @p10='?' (Size = 256), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (DbType = Boolean), @p14='?' (DbType = DateTime2), @p15='?' (DbType = Boolean), @p16='?' (DbType = DateTimeOffset), @p17='?' (Size = 4000), @p18='?' (DbType = DateTime2), @p19='?' (Size = 256), @p20='?' (Size = 256), @p21='?' (Size = 4000), @p22='?' (Size = 4000), @p23='?' (DbType = Boolean), @p24='?' (Size = 4000), @p25='?' (DbType = DateTime2), @p26='?' (Size = 4000), @p27='?' (DbType = Int32), @p28='?' (DbType = Boolean), @p29='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Countries] ([Id], [Code], [IsActive], [Name])
+VALUES (@p0, @p1, @p2, @p3);
+INSERT INTO [Users] ([AccessFailedCount], [ConcurrencyStamp], [ConfirmationCodeExpiry], [CountryID], [CreatedAt], [CreatedBy], [Email], [EmailConfirmationCode], [EmailConfirmed], [IsActive], [LastLogin], [LockoutEnabled], [LockoutEnd], [ModifiedBy], [ModifiedDate], [NormalizedEmail], [NormalizedUserName], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [ResetPasswordCode], [ResetPasswordCodeExpiry], [SecurityStamp], [StateID], [TwoFactorEnabled], [UserName])
+OUTPUT INSERTED.[Id]
+VALUES (@p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20, @p21, @p22, @p23, @p24, @p25, @p26, @p27, @p28, @p29);
+2024-10-27 16:55:15.205 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'HootelBooking.Persistence.Data.AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'Countries' when IDENTITY_INSERT is set to OFF.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:a21b754b-e404-4347-bd44-c88207e71b60
+Error Number:544,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'Countries' when IDENTITY_INSERT is set to OFF.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:a21b754b-e404-4347-bd44-c88207e71b60
+Error Number:544,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2024-10-27 16:55:15.515 +03:00 [ERR] Failed To Execute:Auth/Register, 500 , An error occurred while saving the entity changes. See the inner exception for details.
+
+2024-10-27 16:55:31.505 +03:00 [INF] Starting the application
+
+2024-10-27 16:55:53.940 +03:00 [INF] Starting the application
+
+2024-10-27 16:56:34.106 +03:00 [INF] Trying to execute: Auth/Register
+2024-10-27 16:56:35.983 +03:00 [ERR] Failed executing DbCommand (12ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (DbType = Boolean), @p3='?' (Size = 4000), @p4='?' (DbType = Int32), @p5='?' (Size = 4000), @p6='?' (DbType = DateTime2), @p7='?' (DbType = Int32), @p8='?' (DbType = DateTime2), @p9='?' (Size = 4000), @p10='?' (Size = 256), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (DbType = Boolean), @p14='?' (DbType = DateTime2), @p15='?' (DbType = Boolean), @p16='?' (DbType = DateTimeOffset), @p17='?' (Size = 4000), @p18='?' (DbType = DateTime2), @p19='?' (Size = 256), @p20='?' (Size = 256), @p21='?' (Size = 4000), @p22='?' (Size = 4000), @p23='?' (DbType = Boolean), @p24='?' (Size = 4000), @p25='?' (DbType = DateTime2), @p26='?' (Size = 4000), @p27='?' (DbType = Int32), @p28='?' (DbType = Boolean), @p29='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Countries] ([Id], [Code], [IsActive], [Name])
+VALUES (@p0, @p1, @p2, @p3);
+INSERT INTO [Users] ([AccessFailedCount], [ConcurrencyStamp], [ConfirmationCodeExpiry], [CountryID], [CreatedAt], [CreatedBy], [Email], [EmailConfirmationCode], [EmailConfirmed], [IsActive], [LastLogin], [LockoutEnabled], [LockoutEnd], [ModifiedBy], [ModifiedDate], [NormalizedEmail], [NormalizedUserName], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [ResetPasswordCode], [ResetPasswordCodeExpiry], [SecurityStamp], [StateID], [TwoFactorEnabled], [UserName])
+OUTPUT INSERTED.[Id]
+VALUES (@p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20, @p21, @p22, @p23, @p24, @p25, @p26, @p27, @p28, @p29);
+2024-10-27 16:56:36.012 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'HootelBooking.Persistence.Data.AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'Countries' when IDENTITY_INSERT is set to OFF.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:93786843-4f9c-4c7d-8d81-56b76048154d
+Error Number:544,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'Countries' when IDENTITY_INSERT is set to OFF.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:93786843-4f9c-4c7d-8d81-56b76048154d
+Error Number:544,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2024-10-27 16:56:36.308 +03:00 [ERR] Failed To Execute:Auth/Register, 500 , An error occurred while saving the entity changes. See the inner exception for details.
+
+2024-10-27 16:59:09.395 +03:00 [INF] Starting the application
+
+2024-10-27 17:00:02.973 +03:00 [INF] Trying to execute: Auth/Register
+2024-10-27 17:04:21.477 +03:00 [INF] Starting the application
+
+2024-10-27 17:04:39.309 +03:00 [INF] Trying to execute: Auth/Register
+2024-10-27 17:04:42.591 +03:00 [INF] Auth/Register: executed successfully
+
+2024-10-27 17:05:16.035 +03:00 [INF] Starting the application
+
+2024-10-27 17:07:56.996 +03:00 [INF] Trying to execute: Auth/Register
+2024-10-27 17:08:00.571 +03:00 [INF] Auth/Register: executed successfully
+
+2024-10-27 17:08:34.480 +03:00 [INF] Trying to execute: Auth/Register
+2024-10-27 17:10:11.079 +03:00 [INF] Starting the application
+
+2024-10-27 17:10:41.238 +03:00 [INF] Trying to execute: Auth/Register
+2024-10-27 17:16:36.390 +03:00 [INF] Starting the application
+
+2024-10-27 17:17:12.243 +03:00 [INF] Trying to execute: Auth/Register
+2024-10-27 17:17:21.457 +03:00 [INF] Auth/Register: executed successfully
+
+2024-10-27 17:26:28.815 +03:00 [INF] Starting the application
+
+2024-10-27 17:26:57.075 +03:00 [INF] Trying to execute: Auth/Register
+2024-10-27 17:32:53.093 +03:00 [INF] Starting the application
+
+2024-10-27 17:33:13.928 +03:00 [INF] Trying to execute: Auth/Register
+2024-10-27 17:33:20.738 +03:00 [INF] Auth/Register: executed successfully
+
+2024-10-27 17:42:32.365 +03:00 [INF] Starting the application
+
+2024-10-27 17:42:54.500 +03:00 [INF] Trying to execute: Auth/Register
+2024-10-27 17:43:01.234 +03:00 [INF] Auth/Register: executed successfully
+
+2024-10-27 17:43:56.666 +03:00 [INF] Starting the application
+
+2024-10-27 17:44:25.811 +03:00 [INF] Trying to execute: Auth/ConfirmEmail
+2024-10-27 17:44:26.222 +03:00 [ERR] Failed To Execute:Auth/ConfirmEmail, 500 , Validation failed: The length of 'Request Code' must be 8 characters or fewer. You entered 9 characters.
+
+2024-10-27 17:44:35.036 +03:00 [INF] Trying to execute: Auth/ConfirmEmail
+2024-10-27 17:44:37.888 +03:00 [INF] Auth/ConfirmEmail: executed successfully
+
+2024-10-27 17:44:48.975 +03:00 [INF] Trying to execute: Auth/ConfirmEmail
+2024-10-27 17:44:49.213 +03:00 [INF] Auth/ConfirmEmail: executed successfully
+
+2024-10-27 17:44:56.735 +03:00 [INF] Trying to execute: Auth/ConfirmEmail
+2024-10-27 17:44:57.044 +03:00 [INF] Auth/ConfirmEmail: executed successfully
+
+2024-10-27 17:45:54.456 +03:00 [INF] Trying to execute: Auth/Login
+2024-10-27 17:45:54.589 +03:00 [ERR] Failed To Execute:Auth/Login, 500 , Validation failed: The length of 'Request Password' must be at least 8 characters. You entered 6 characters.
+
+2024-10-27 17:46:00.705 +03:00 [INF] Trying to execute: Auth/Login
+2024-10-27 17:46:00.725 +03:00 [INF] Auth/Login: executed successfully
+
+2024-10-27 17:46:04.980 +03:00 [INF] Trying to execute: Auth/Login
+2024-10-27 17:46:05.028 +03:00 [INF] Auth/Login: executed successfully
+
+2024-10-27 17:46:13.828 +03:00 [INF] Trying to execute: Auth/Login
+2024-10-27 17:46:13.857 +03:00 [INF] Auth/Login: executed successfully
+
+2024-10-27 17:46:18.752 +03:00 [INF] Trying to execute: Auth/Login
+2024-10-27 17:46:18.789 +03:00 [INF] Auth/Login: executed successfully
+
+2024-10-27 17:46:24.184 +03:00 [INF] Trying to execute: Auth/Login
+2024-10-27 17:46:24.220 +03:00 [INF] Auth/Login: executed successfully
+
+2024-10-27 17:46:26.217 +03:00 [INF] Trying to execute: Auth/Login
+2024-10-27 17:46:26.249 +03:00 [INF] Auth/Login: executed successfully
+
+2024-10-27 17:46:30.347 +03:00 [INF] Trying to execute: Auth/Login
+2024-10-27 17:46:30.388 +03:00 [INF] Auth/Login: executed successfully
+
+2024-10-27 17:48:37.986 +03:00 [INF] Starting the application
+
+2024-10-27 17:48:57.115 +03:00 [INF] Trying to execute: Auth/Register
+2024-10-27 17:49:04.329 +03:00 [INF] Auth/Register: executed successfully
+
+2024-10-27 17:49:34.255 +03:00 [INF] Trying to execute: Auth/Login
+2024-10-27 17:49:34.374 +03:00 [INF] Auth/Login: executed successfully
+
+2024-10-27 17:50:27.117 +03:00 [INF] Trying to execute: Auth/ConfirmEmail
+2024-10-27 17:50:27.179 +03:00 [INF] Auth/ConfirmEmail: executed successfully
+
+2024-10-27 17:50:54.238 +03:00 [INF] Trying to execute: Auth/Login
+2024-10-27 17:50:54.286 +03:00 [INF] Auth/Login: executed successfully
+
+2024-10-27 17:51:00.694 +03:00 [INF] Trying to execute: Auth/Login
+2024-10-27 17:51:00.742 +03:00 [INF] Auth/Login: executed successfully
+
+2024-10-27 17:54:54.308 +03:00 [INF] Starting the application
+
+2024-10-27 17:55:24.023 +03:00 [INF] Trying to execute: Auth/Register
+2024-10-27 17:55:27.608 +03:00 [INF] Auth/Register: executed successfully
+
+2024-10-27 17:55:48.447 +03:00 [INF] Trying to execute: Auth/Register
+2024-10-27 17:55:48.552 +03:00 [INF] Auth/Register: executed successfully
+
+2024-10-27 17:57:28.761 +03:00 [INF] Trying to execute: Auth/Register
+2024-10-27 17:57:33.670 +03:00 [INF] Auth/Register: executed successfully
+
+2024-10-27 17:58:24.074 +03:00 [INF] Trying to execute: Auth/ConfirmEmail
+2024-10-27 17:58:24.159 +03:00 [INF] Auth/ConfirmEmail: executed successfully
+
+2024-10-27 17:58:49.403 +03:00 [INF] Trying to execute: Auth/Login
+2024-10-27 17:58:49.772 +03:00 [INF] Auth/Login: executed successfully
+
