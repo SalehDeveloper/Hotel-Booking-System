@@ -98,7 +98,7 @@ INSERT INTO Countries (Name,Code, IsActive) VALUES ('Indonesia', 'ID' , 1);
 INSERT INTO Countries (Name,Code, IsActive) VALUES ('Iran', 'IR' , 1);
 INSERT INTO Countries (Name,Code, IsActive) VALUES ('Ireland', 'IE' , 1);
 INSERT INTO Countries (Name,Code, IsActive) VALUES ('Isle of Man', 'IM' , 1);
-INSERT INTO Countries (Name,Code, IsActive) VALUES ('Israel', 'IL' , 1);
+
 INSERT INTO Countries (Name,Code, IsActive) VALUES ('Italy', 'IT' , 1);
 INSERT INTO Countries (Name,Code, IsActive) VALUES ('Jamaica', 'JM' , 1);
 INSERT INTO Countries (Name,Code, IsActive) VALUES ('Japan', 'JP' , 1);
